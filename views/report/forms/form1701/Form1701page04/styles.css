@@ -1,0 +1,23 @@
+
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1275px;
+	 height: 1650px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #page41701 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1275px;
+	 height: 1950px;
+	 z-index:1;
+} 

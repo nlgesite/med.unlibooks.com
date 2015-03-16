@@ -1,0 +1,473 @@
+
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1275px;
+	 height: 1650px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #page31701 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1275px;
+	 height: 1950px;
+	 z-index:1;
+} 
+
+ #partV94B 
+{ 
+	 left: 945px; 
+	 top: 1431px; 
+	 position: absolute; 
+	 width: 281px;
+	 height: 37px;
+	 z-index:2;
+} 
+
+ #partV93B 
+{ 
+	 left: 942px; 
+	 top: 1383px; 
+	 position: absolute; 
+	 width: 286px;
+	 height: 38px;
+	 z-index:3;
+} 
+
+ #partV93A 
+{ 
+	 left: 620px; 
+	 top: 1383px; 
+	 position: absolute; 
+	 width: 269px;
+	 height: 36px;
+	 z-index:4;
+} 
+
+ #partV92B 
+{ 
+	 left: 942px; 
+	 top: 1350px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 33px;
+	 z-index:5;
+} 
+
+ #partV92A 
+{ 
+	 left: 620px; 
+	 top: 1348px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 33px;
+	 z-index:6;
+} 
+
+ #partV91B 
+{ 
+	 left: 940px; 
+	 top: 1314px; 
+	 position: absolute; 
+	 width: 289px;
+	 height: 35px;
+	 z-index:7;
+} 
+
+ #partV91A 
+{ 
+	 left: 620px; 
+	 top: 1313px; 
+	 position: absolute; 
+	 width: 266px;
+	 height: 35px;
+	 z-index:8;
+} 
+
+ #partV90B 
+{ 
+	 left: 941px; 
+	 top: 1279px; 
+	 position: absolute; 
+	 width: 287px;
+	 height: 35px;
+	 z-index:9;
+} 
+
+ #partV90A 
+{ 
+	 left: 620px; 
+	 top: 1278px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 33px;
+	 z-index:10;
+} 
+
+ #partV89B 
+{ 
+	 left: 942px; 
+	 top: 1243px; 
+	 position: absolute; 
+	 width: 287px;
+	 height: 33px;
+	 z-index:11;
+} 
+
+ #partV89A 
+{ 
+	 left: 620px; 
+	 top: 1243px; 
+	 position: absolute; 
+	 width: 266px;
+	 height: 33px;
+	 z-index:12;
+} 
+
+ #partV88B 
+{ 
+	 left: 940px; 
+	 top: 1205px; 
+	 position: absolute; 
+	 width: 286px;
+	 height: 36px;
+	 z-index:13;
+} 
+
+ #partV88A 
+{ 
+	 left: 620px; 
+	 top: 1207px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 34px;
+	 z-index:14;
+} 
+
+ #partV87B 
+{ 
+	 left: 942px; 
+	 top: 1171px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 34px;
+	 z-index:15;
+} 
+
+ #partV87A 
+{ 
+	 left: 620px; 
+	 top: 1170px; 
+	 position: absolute; 
+	 width: 266px;
+	 height: 33px;
+	 z-index:16;
+} 
+
+ #partV86B 
+{ 
+	 left: 941px; 
+	 top: 1135px; 
+	 position: absolute; 
+	 width: 285px;
+	 height: 35px;
+	 z-index:17;
+} 
+
+ #partV86A 
+{ 
+	 left: 618px; 
+	 top: 1134px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 36px;
+	 z-index:18;
+} 
+
+ #partV85B 
+{ 
+	 left: 942px; 
+	 top: 1020px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 35px;
+	 z-index:19;
+} 
+
+ #partV84B 
+{ 
+	 left: 942px; 
+	 top: 968px; 
+	 position: absolute; 
+	 width: 283px;
+	 height: 38px;
+	 z-index:20;
+} 
+
+ #partV83B 
+{ 
+	 left: 942px; 
+	 top: 935px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 34px;
+	 z-index:21;
+} 
+
+ #partV82B 
+{ 
+	 left: 944px; 
+	 top: 901px; 
+	 position: absolute; 
+	 width: 282px;
+	 height: 33px;
+	 z-index:22;
+} 
+
+ #partV81B 
+{ 
+	 left: 944px; 
+	 top: 863px; 
+	 position: absolute; 
+	 width: 282px;
+	 height: 37px;
+	 z-index:23;
+} 
+
+ #partV80B 
+{ 
+	 left: 941px; 
+	 top: 789px; 
+	 position: absolute; 
+	 width: 287px;
+	 height: 37px;
+	 z-index:24;
+} 
+
+ #partV79B 
+{ 
+	 left: 940px; 
+	 top: 744px; 
+	 position: absolute; 
+	 width: 285px;
+	 height: 46px;
+	 z-index:25;
+} 
+
+ #partV78B 
+{ 
+	 left: 942px; 
+	 top: 707px; 
+	 position: absolute; 
+	 width: 286px;
+	 height: 35px;
+	 z-index:26;
+} 
+
+ #partV77B 
+{ 
+	 left: 941px; 
+	 top: 668px; 
+	 position: absolute; 
+	 width: 287px;
+	 height: 39px;
+	 z-index:27;
+} 
+
+ #partV77A 
+{ 
+	 left: 618px; 
+	 top: 670px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 37px;
+	 z-index:28;
+} 
+
+ #partV76B 
+{ 
+	 left: 940px; 
+	 top: 635px; 
+	 position: absolute; 
+	 width: 289px;
+	 height: 34px;
+	 z-index:29;
+} 
+
+ #partV76A 
+{ 
+	 left: 618px; 
+	 top: 635px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 34px;
+	 z-index:30;
+} 
+
+ #partV75B 
+{ 
+	 left: 941px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 285px;
+	 height: 35px;
+	 z-index:31;
+} 
+
+ #partV75A 
+{ 
+	 left: 618px; 
+	 top: 598px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 33px;
+	 z-index:32;
+} 
+
+ #partV74B 
+{ 
+	 left: 942px; 
+	 top: 559px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 39px;
+	 z-index:33;
+} 
+
+ #partV74A 
+{ 
+	 left: 618px; 
+	 top: 557px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 42px;
+	 z-index:34;
+} 
+
+ #partV73B 
+{ 
+	 left: 941px; 
+	 top: 522px; 
+	 position: absolute; 
+	 width: 285px;
+	 height: 35px;
+	 z-index:35;
+} 
+
+ #partV73A 
+{ 
+	 left: 618px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 269px;
+	 height: 32px;
+	 z-index:36;
+} 
+
+ #partV72B 
+{ 
+	 left: 942px; 
+	 top: 452px; 
+	 position: absolute; 
+	 width: 282px;
+	 height: 42px;
+	 z-index:37;
+} 
+
+ #partV72A 
+{ 
+	 left: 618px; 
+	 top: 452px; 
+	 position: absolute; 
+	 width: 269px;
+	 height: 42px;
+	 z-index:38;
+} 
+
+ #partV71B 
+{ 
+	 left: 942px; 
+	 top: 416px; 
+	 position: absolute; 
+	 width: 283px;
+	 height: 33px;
+	 z-index:39;
+} 
+
+ #partV71A 
+{ 
+	 left: 618px; 
+	 top: 416px; 
+	 position: absolute; 
+	 width: 269px;
+	 height: 33px;
+	 z-index:40;
+} 
+
+ #partV70B 
+{ 
+	 left: 942px; 
+	 top: 381px; 
+	 position: absolute; 
+	 width: 282px;
+	 height: 33px;
+	 z-index:41;
+} 
+
+ #partV70A 
+{ 
+	 left: 618px; 
+	 top: 381px; 
+	 position: absolute; 
+	 width: 269px;
+	 height: 33px;
+	 z-index:42;
+} 
+
+ #partV69B 
+{ 
+	 left: 941px; 
+	 top: 343px; 
+	 position: absolute; 
+	 width: 285px;
+	 height: 36px;
+	 z-index:43;
+} 
+
+ #partV69A 
+{ 
+	 left: 618px; 
+	 top: 344px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 35px;
+	 z-index:44;
+} 
+
+ #partV68B 
+{ 
+	 left: 942px; 
+	 top: 309px; 
+	 position: absolute; 
+	 width: 283px;
+	 height: 34px;
+	 z-index:45;
+} 
+
+ #partV68A 
+{ 
+	 left: 616px; 
+	 top: 309px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 34px;
+	 z-index:46;
+} 

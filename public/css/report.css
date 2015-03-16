@@ -1,0 +1,83 @@
+
+.reportfonts{
+	color: rgb(37, 181, 239);
+	font-family: tahoma;
+	font-weight: bold;
+	font-size:16px;
+}
+.DFstask{
+       /*  margin-top: 15px; */
+        padding-left: 10px;
+        font-size: 12px;
+        font-family: verdana;
+        border-radius: 10px;
+    }
+.incomestate{
+	/* padding-left:15px; */
+}
+.FSPrintbalance{
+		background-image: url('../images/reportprint.png');
+		background-size:100% 100%;
+		border:none;
+        width: 100px;
+        height: 28px;
+        border-radius: 5px;
+        margin-left: -115px;
+        cursor: pointer;
+    }
+.FSPrintbalances{
+        width: 100px;
+        height: 28px;
+		background-image: url('../images/exportreport.png');
+		background-size:100% 100%;
+        border-radius: 5px;
+        margin-left: 15px;
+        cursor: pointer;
+		border:none;
+    }
+ .searchsalesincome{
+        width: 100px;
+        height: 28px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: -45px;
+		background-image: url('../images/generate.png');
+		background-size:100% 100%;
+		border:none;
+    }
+.BSText{
+		font-size: 23.4px;
+		font-family: agency fb2;
+		font-weight: bold;
+		padding-left: 20px;
+		padding-top: 20px;
+		color: rgb(37, 181, 239);
+	}
+.tblShowReportOR th{
+	background-color: rgb(37, 181, 239);
+}	
+.fontreportnew{
+	color: rgb(37, 181, 239);
+	font-family: tahoma;
+	font-size: 12px;
+}
+.reportprint{
+	background-image: url('../images/reportprint.png');
+	background-size:100% 100%;
+}
+.reportexport{
+	background-image: url('../images/exportreport.png');
+	background-size:100% 100%;
+}
+.reportgenerate{
+	background-image: url('../images/generate.png');
+	background-size:100% 100%;
+}
+ .hmoDivider{
+       width: 100%;
+		height: 2px;
+		border-radius: 2px;
+		background: rgb(37, 181, 239);
+		/* margin-top: 10px; */
+    }

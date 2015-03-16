@@ -1,0 +1,22 @@
+#Alternate default index page
+#DirectoryIndex under_cons.php
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+<FilesMatch "\.(htm|html|css|js|php)$">
+AddDefaultCharset UTF-8
+DefaultLanguage en-US
+#deny from all
+</FilesMatch>
+#
+#<FilesMatch "^(hmo|create_new_hmo)\.php$">
+##AddDefaultCharset UTF-8
+##DefaultLanguage en-US
+#deny from all
+#</FilesMatch>

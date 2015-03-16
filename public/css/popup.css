@@ -1,0 +1,29 @@
+	#new1Client{
+        font-family: agency fb2;
+        margin-left: 20px;
+		font-size:28.4px;
+		color:#04805c;
+    }
+	.new1Client22{
+		font-family: agency fb2;
+        margin-left: 20px;
+		font-size:28.4px;
+		color:#04805c;
+	}
+	.addsavebutton{
+        background-image:url('../images/addsave.png');
+		background-size:100% 100%;
+		font-family: tahoma;
+		font-size: 14px;
+		font-weight: bold;
+    }
+	.boxshadow {
+		border: solid 1px #25b5ef;
+		box-shadow: 0px 1px 2px 2px gray;
+	}
+	.popx{
+		 background-image:url('../images/popx.png');
+		 background-size:100% 100%;
+		 cursor:pointer;
+	}
+	

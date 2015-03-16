@@ -1,0 +1,158 @@
+@media print{
+	.buttonHolder,
+	.linereport,
+	.listForm,
+	#container,
+	#footer{
+		display: none;
+	}
+	
+	
+	#container, .listForm,  #footer{
+		display: none;
+	}
+	 .gen101{
+		height: auto;
+		cursor: none;
+	} 
+	.clientlink{
+		margin-top: 0px;
+	}
+	.generatedReports2 {
+		position: absolute;
+		margin: 0;
+		width:100%;
+		height:90%;
+		zoom: 100%;
+		border: 2px solid black;
+		background: black;
+		margin-top: -95px;
+		margin-left: -137px;
+	}
+	#background{
+		
+	}
+	.reportForm, .tblShowReportOR  tr td, .tblShowReport  tr td, .tblmainsumlist  tr td, .clientlisttable tr td{
+		border: none !important;
+	}
+	.clientlink{
+		margin: 0;
+	}
+	.BSText, .FSPrintbalance, .FSPrintbalances, .incomestate, .outstanding_title, 
+	.outstanding_button, .outstanding_gen, .cr_title, .cr_button, .tblExpenseOR2,
+	.sbis, .buttonFS, .DFstask, .me_head, .pL{
+		display: none;
+	}
+	
+	.scrollbalance, .showGeneratedHmo, .showReportByHMO, .scroll, .showTrialBalance{
+		overflow: hidden !important;
+		border:none !important;
+		height:100% !important;
+	}
+	
+	.balanceSheetform, .showGeneratedHmo, .tblShowReport_div , .containertask, .expenseDiv, .clientlistmainform, .trialBalCont {
+		position: absolute;
+		border: none !important;
+		margin: 0;
+		width:100%;
+		height:100%;
+		zoom: 150% ;
+		background: black;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	
+	.expenseDiv{
+		zoom: 100%;
+	}
+	
+	
+	.tblShowReport_div{
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+		overflow:hidden;
+	}
+	
+	
+	.showGeneratedHmo{
+		margin-left: -10px !important;
+	}
+	
+	.containertask{
+		margin-left: -42px !important;
+	}
+	
+	.clientlistmainform{
+		margin-left: 45px !important;
+		zoom: 120% !important;
+	}
+	
+	.tblShowReportOR th, .tblShowReport  th, .tblmainsumlist th, .clientlisttable th, .blHeader{
+		color: black !important;
+	}
+	
+	/* trial balance */
+	 .showTrialBalance
+	{
+		overflow:hidden !important;
+		border:none !important;
+		height:auto !important;
+		box-shadow:none !important;
+	
+	}
+	
+	.trialBalCont{
+		margin-left: 20px !important;
+		zoom: 120% !important;
+		border:none;
+	}
+	.listForm{
+		border:none !important;
+	}
+	.reportContainer{
+		box-shadow:none !important;
+	}
+	 
+	.cnitableExp,
+	.searchindexAllE,
+	.inumberAllExp,
+	.paginate,
+	.paginateSelect,
+	.paginateNumber,
+	.buttonRight,
+	.xButton,
+	.tfootTable{
+		display:none;
+	}
+	.invoiceHolderAllExp,
+	.inumber{
+		display:none;
+	}
+	.popBack, .popup{
+        background: black;
+        position: relative;
+        overflow:hidden;
+    }
+	.evCont{
+		zoom:74%;
+		margin:none !important;
+	}
+	.evHolder {
+		border: none !important;
+		margin:!important;
+	}
+	.tblAcctExpense th{
+		color:#000;
+		font-weight:bold;
+	}
+	
+	
+	
+	
+	
+	
+}
+@page {
+    size: Legal;
+	margin:10px;
+}

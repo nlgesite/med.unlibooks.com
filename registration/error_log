@@ -1,0 +1,2047 @@
+[29-Jan-2015 00:19:32 CST6CDT] PHP Fatal error:  Class 'MedAccount' not found in /home/unlibooks/public_html/med/registration/index.php on line 55
+[29-Jan-2015 00:21:42 CST6CDT] PHP Fatal error:  Call to undefined method DAOFactory::getMedAccountDAO() in /home/unlibooks/public_html/med/registration/index.php on line 67
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/class/sql/ConnectionFactory.class.php on line 16
+[29-Jan-2015 00:23:15 CST6CDT] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/ConnectionFactory.class.php on line 17
+[29-Jan-2015 00:23:15 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionFactory.class.php:19
+Stack trace:
+#0 /home/unlibooks/public_html/med/registration/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php(63): Connection->Connection()
+#2 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#3 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(71): MedAccountsMySqlDAO->executeInsert(Object(SqlQuery))
+#4 /home/unlibooks/public_html/med/registration/index.php(67): MedAccountsMySqlDAO->insert(Object(MedAccount))
+#5 {main}
+  thrown in /home/unlibooks/public_html/med/registration/class/sql/ConnectionFactory.class.php on line 19
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:24:13 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:24:13 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'No database selected' in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php:70
+Stack trace:
+#0 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#1 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(71): MedAccountsMySqlDAO->executeInsert(Object(SqlQuery))
+#2 /home/unlibooks/public_html/med/registration/index.php(67): MedAccountsMySqlDAO->insert(Object(MedAccount))
+#3 {main}
+  thrown in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php on line 70
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibooks'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:26:23 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:26:23 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'No database selected' in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php:70
+Stack trace:
+#0 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#1 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(71): MedAccountsMySqlDAO->executeInsert(Object(SqlQuery))
+#2 /home/unlibooks/public_html/med/registration/index.php(67): MedAccountsMySqlDAO->insert(Object(MedAccount))
+#3 {main}
+  thrown in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php on line 70
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_user'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:27:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:27:05 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'No database selected' in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php:70
+Stack trace:
+#0 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#1 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(71): MedAccountsMySqlDAO->executeInsert(Object(SqlQuery))
+#2 /home/unlibooks/public_html/med/registration/index.php(67): MedAccountsMySqlDAO->insert(Object(MedAccount))
+#3 {main}
+  thrown in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php on line 70
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (42000/1044): Access denied for user 'unlibook_main'@'localhost' to database 'unlibooks_for_doctors_main' in /home/unlibooks/public_html/med/registration/class/sql/ConnectionProperty.class.php on line 32
+[29-Jan-2015 00:29:50 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/unlibooks/public_html/med/registration/class/sql/SqlQuery.class.php on line 38
+[29-Jan-2015 00:29:50 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'No database selected' in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php:70
+Stack trace:
+#0 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#1 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(71): MedAccountsMySqlDAO->executeInsert(Object(SqlQuery))
+#2 /home/unlibooks/public_html/med/registration/index.php(67): MedAccountsMySqlDAO->insert(Object(MedAccount))
+#3 {main}
+  thrown in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php on line 70
+[29-Jan-2015 00:31:04 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'database_name' in 'field list'' in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php:70
+Stack trace:
+#0 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(275): QueryExecutor::executeInsert(Object(SqlQuery))
+#1 /home/unlibooks/public_html/med/registration/class/mysql/MedAccountsMySqlDAO.class.php(71): MedAccountsMySqlDAO->executeInsert(Object(SqlQuery))
+#2 /home/unlibooks/public_html/med/registration/index.php(67): MedAccountsMySqlDAO->insert(Object(MedAccount))
+#3 {main}
+  thrown in /home/unlibooks/public_html/med/registration/class/sql/QueryExecutor.class.php on line 70
+[29-Jan-2015 00:31:40 CST6CDT] PHP Warning:  include(xmlapi.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/unlibooks/public_html/med/registration/subdomain.php on line 73
+[29-Jan-2015 00:31:40 CST6CDT] PHP Warning:  include(xmlapi.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/unlibooks/public_html/med/registration/subdomain.php on line 73
+[29-Jan-2015 00:31:40 CST6CDT] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'xmlapi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/unlibooks/public_html/med/registration/subdomain.php on line 73
+[29-Jan-2015 00:31:40 CST6CDT] PHP Fatal error:  Class 'xmlapi' not found in /home/unlibooks/public_html/med/registration/subdomain.php on line 79
+[29-Jan-2015 00:33:03 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:33:03 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_
+[29-Jan-2015 00:33:03 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:33:03 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>“unlibook_med_for_” is invalid because database names on this system may not end with an underscore (_).</error></cpanelresult>
+[29-Jan-2015 00:33:03 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => “unlibook_med_for_” is invalid because database names on this system may not end with an underscore (_).
+)
+
+[29-Jan-2015 00:33:03 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => “unlibook_med_for_” is invalid because database names on this system may not end with an underscore (_).
+)
+
+[29-Jan-2015 00:33:03 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:33:03 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=&arg-1=sjc-12345
+[29-Jan-2015 00:33:03 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:33:03 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>No username given.</error></cpanelresult>
+[29-Jan-2015 00:33:03 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => No username given.
+)
+
+[29-Jan-2015 00:33:03 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => No username given.
+)
+
+[29-Jan-2015 00:33:03 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:33:03 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_&arg-1=unlibook_&arg-2=all
+[29-Jan-2015 00:33:03 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:33:04 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result>The user “unlibooks” does not have a MySQL database named “unlibook_med_for_”.
+</result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” does not have a MySQL database named “unlibook_med_for_”.
+</error></cpanelresult>
+[29-Jan-2015 00:33:04 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => The user “unlibooks” does not have a MySQL database named “unlibook_med_for_”.
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL database named “unlibook_med_for_”.
+
+)
+
+[29-Jan-2015 00:33:04 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => The user “unlibooks” does not have a MySQL database named “unlibook_med_for_”.
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL database named “unlibook_med_for_”.
+
+)
+
+[29-Jan-2015 00:33:04 CST6CDT] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'unlibook_'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/subdomain.php on line 94
+[29-Jan-2015 00:33:35 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:33:35 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_SCPCO
+[29-Jan-2015 00:33:35 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:33:36 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:33:36 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:33:36 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:33:36 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:33:36 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=SCPCO&arg-1=sjc-12345
+[29-Jan-2015 00:33:36 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:33:36 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:33:36 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:33:36 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:33:36 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:33:36 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_SCPCO&arg-1=unlibook_SCPCO&arg-2=all
+[29-Jan-2015 00:33:36 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:33:36 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:33:36 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:33:36 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:37:55 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:37:55 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_aktusglobal
+[29-Jan-2015 00:37:55 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:37:55 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:37:55 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:37:55 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:37:55 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:37:55 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=aktusglobal&arg-1=sjc-12345
+[29-Jan-2015 00:37:55 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:37:56 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>Mysql usernames must be 16 characters or less</error></cpanelresult>
+[29-Jan-2015 00:37:56 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => Mysql usernames must be 16 characters or less
+)
+
+[29-Jan-2015 00:37:56 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => Mysql usernames must be 16 characters or less
+)
+
+[29-Jan-2015 00:37:56 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:37:56 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_aktusglobal&arg-1=unlibook_aktusglobal&arg-2=all
+[29-Jan-2015 00:37:56 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:37:56 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result>The user “unlibooks” does not have a MySQL user named “unlibook_aktusglobal”.
+</result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” does not have a MySQL user named “unlibook_aktusglobal”.
+</error></cpanelresult>
+[29-Jan-2015 00:37:56 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => The user “unlibooks” does not have a MySQL user named “unlibook_aktusglobal”.
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL user named “unlibook_aktusglobal”.
+
+)
+
+[29-Jan-2015 00:37:56 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => The user “unlibooks” does not have a MySQL user named “unlibook_aktusglobal”.
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL user named “unlibook_aktusglobal”.
+
+)
+
+[29-Jan-2015 00:37:56 CST6CDT] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'unlibook_aktusglobal'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/subdomain.php on line 94
+[29-Jan-2015 00:54:29 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:54:29 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_agmanagement
+[29-Jan-2015 00:54:29 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:54:29 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:54:29 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:54:29 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:54:29 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:54:29 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=agmanage&arg-1=sjc-12345
+[29-Jan-2015 00:54:29 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:54:29 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>Mysql usernames must be 16 characters or less</error></cpanelresult>
+[29-Jan-2015 00:54:29 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => Mysql usernames must be 16 characters or less
+)
+
+[29-Jan-2015 00:54:29 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => Mysql usernames must be 16 characters or less
+)
+
+[29-Jan-2015 00:54:29 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:54:29 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_agmanagement&arg-1=unlibook_agmanage&arg-2=all
+[29-Jan-2015 00:54:29 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:54:30 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result>The user “unlibooks” does not have a MySQL user named “unlibook_agmanage”.
+</result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” does not have a MySQL user named “unlibook_agmanage”.
+</error></cpanelresult>
+[29-Jan-2015 00:54:30 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => The user “unlibooks” does not have a MySQL user named “unlibook_agmanage”.
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL user named “unlibook_agmanage”.
+
+)
+
+[29-Jan-2015 00:54:30 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => The user “unlibooks” does not have a MySQL user named “unlibook_agmanage”.
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL user named “unlibook_agmanage”.
+
+)
+
+[29-Jan-2015 00:54:40 CST6CDT] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'unlibook_agmanage'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/subdomain.php on line 96
+[29-Jan-2015 00:56:51 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:56:51 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_agm
+[29-Jan-2015 00:56:51 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:56:51 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:56:51 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:56:51 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:56:51 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:56:51 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=subd&arg-1=sjc-12345
+[29-Jan-2015 00:56:51 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:56:51 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:56:51 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:56:51 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:56:51 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 00:56:51 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_agm&arg-1=unlibook_subd&arg-2=all
+[29-Jan-2015 00:56:51 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 00:56:52 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 00:56:52 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 00:56:52 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:13:34 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:13:34 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_agminc
+[29-Jan-2015 01:13:34 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:13:35 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:13:35 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:13:35 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:13:35 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:13:35 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=subd&arg-1=sjc-12345
+[29-Jan-2015 01:13:35 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:13:36 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+</error></cpanelresult>
+[29-Jan-2015 01:13:36 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 01:13:36 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 01:13:36 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:13:36 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_agminc&arg-1=unlibook_subd&arg-2=all
+[29-Jan-2015 01:13:36 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:13:36 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:13:36 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:13:36 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:15:02 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:15:02 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_agmincorporated
+[29-Jan-2015 01:15:02 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:15:02 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:15:02 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:15:02 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:15:02 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:15:02 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=agmincor&arg-1=sjc-12345
+[29-Jan-2015 01:15:02 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:15:02 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>Mysql usernames must be 16 characters or less</error></cpanelresult>
+[29-Jan-2015 01:15:02 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => Mysql usernames must be 16 characters or less
+)
+
+[29-Jan-2015 01:15:02 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => Mysql usernames must be 16 characters or less
+)
+
+[29-Jan-2015 01:15:02 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:15:02 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_agmincorporated&arg-1=unlibook_agmincor&arg-2=all
+[29-Jan-2015 01:15:02 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:15:03 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result>The user “unlibooks” does not have a MySQL user named “unlibook_agmincor”.
+</result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” does not have a MySQL user named “unlibook_agmincor”.
+</error></cpanelresult>
+[29-Jan-2015 01:15:03 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => The user “unlibooks” does not have a MySQL user named “unlibook_agmincor”.
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL user named “unlibook_agmincor”.
+
+)
+
+[29-Jan-2015 01:15:03 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => The user “unlibooks” does not have a MySQL user named “unlibook_agmincor”.
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” does not have a MySQL user named “unlibook_agmincor”.
+
+)
+
+[29-Jan-2015 01:15:13 CST6CDT] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'unlibook_agmincor'@'localhost' (using password: YES) in /home/unlibooks/public_html/med/registration/subdomain.php on line 96
+[29-Jan-2015 01:17:10 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:17:10 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_agminternational
+[29-Jan-2015 01:17:10 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:17:10 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:17:10 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:17:10 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:17:10 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:17:10 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=agmint&arg-1=sjc-12345
+[29-Jan-2015 01:17:10 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:17:11 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:17:11 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:17:11 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:17:11 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:17:11 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_agminternational&arg-1=unlibook_agmint&arg-2=all
+[29-Jan-2015 01:17:11 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:17:11 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:17:11 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:17:11 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:23:04 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:23:04 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_qwerty
+[29-Jan-2015 01:23:04 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:23:04 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:23:04 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:23:04 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:23:04 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:23:04 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=subd&arg-1=sjc-12345
+[29-Jan-2015 01:23:04 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:23:04 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+</error></cpanelresult>
+[29-Jan-2015 01:23:04 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 01:23:04 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 01:23:04 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 01:23:04 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_qwerty&arg-1=unlibook_subd&arg-2=all
+[29-Jan-2015 01:23:04 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 01:23:05 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 01:23:05 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 01:23:05 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:16:13 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 02:16:13 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_google
+[29-Jan-2015 02:16:13 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 02:16:14 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 02:16:14 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:16:14 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:16:14 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 02:16:14 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=subd&arg-1=sjc-12345
+[29-Jan-2015 02:16:14 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 02:16:14 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+</error></cpanelresult>
+[29-Jan-2015 02:16:14 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 02:16:14 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 02:16:14 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 02:16:14 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_google&arg-1=unlibook_subd&arg-2=all
+[29-Jan-2015 02:16:14 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 02:16:14 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 02:16:14 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:16:14 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:38:11 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 02:38:11 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adddb&cpanel_xmlapi_apiversion=1&arg-0=med_for_yahoo
+[29-Jan-2015 02:38:11 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 02:38:12 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adddb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 02:38:12 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:38:12 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adddb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:38:12 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 02:38:12 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduser&cpanel_xmlapi_apiversion=1&arg-0=subd&arg-1=sjc-12345
+[29-Jan-2015 02:38:12 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 02:38:12 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduser</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+<error>The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+</error></cpanelresult>
+[29-Jan-2015 02:38:12 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 02:38:12 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduser
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+    [error] => The user “unlibooks” may not create a database user named “unlibook_subd” because a user with that name already exists.
+
+)
+
+[29-Jan-2015 02:38:12 CST6CDT] URL: http://unlibooks.com:2082/xml-api/cpanel
+[29-Jan-2015 02:38:12 CST6CDT] DATA: user=unlibooks&cpanel_xmlapi_module=Mysql&cpanel_xmlapi_func=adduserdb&cpanel_xmlapi_apiversion=1&arg-0=unlibook_med_for_yahoo&arg-1=unlibook_subd&arg-2=all
+[29-Jan-2015 02:38:12 CST6CDT] Authentication Header: Authorization: Basic dW5saWJvb2tzOnNqYy0xMjM=
+
+
+[29-Jan-2015 02:38:13 CST6CDT] RESPONSE:
+ <?xml version="1.0" ?>
+<cpanelresult><module>Mysql</module><func>adduserdb</func><type>event</type><source>internal</source><apiversion>1</apiversion><data><result></result></data>  <event>
+    <result>1</result>
+  </event>
+</cpanelresult>
+[29-Jan-2015 02:38:13 CST6CDT] SimpleXML var_dump:
+SimpleXMLElement Object
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => SimpleXMLElement Object
+        (
+            [result] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+    [event] => SimpleXMLElement Object
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:38:13 CST6CDT] Associative Array var_dump:
+Array
+(
+    [module] => Mysql
+    [func] => adduserdb
+    [type] => event
+    [source] => internal
+    [apiversion] => 1
+    [data] => Array
+        (
+            [result] => Array
+                (
+                )
+
+        )
+
+    [event] => Array
+        (
+            [result] => 1
+        )
+
+)
+
+[29-Jan-2015 02:38:28 CST6CDT] PHP Warning:  require_once(../../user/userRegistration) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/unlibooks/public_html/med/registration/index.php on line 76
+[29-Jan-2015 02:38:28 CST6CDT] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../user/userRegistration' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/unlibooks/public_html/med/registration/index.php on line 76

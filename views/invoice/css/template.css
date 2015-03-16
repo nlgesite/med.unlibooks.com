@@ -1,0 +1,2482 @@
+
+.mainbody{
+	background-color: white;
+}
+.mainbodyInvoice{
+	background-color: white;
+	padding-bottom:400px;
+	box-shadow: 10px 4px 7px -9px rgba(50, 50, 50, 0.75), -6px 5px 11px -7px rgba(50, 50, 50, 0.75);
+	margin-bottom:-14px;
+	margin-top:51px;
+}
+.invoiceHolderNewInvoiceForm{
+	width: 100%;
+	/* margin-top: 88px; */
+	background-color: white;
+	padding-bottom: 102px;
+	box-shadow: 10px 4px 7px -9px rgba(50, 50, 50, 0.75), -6px 5px 11px -7px rgba(50, 50, 50, 0.75);
+	margin-bottom:-14px;
+	margin-top:50px;
+}
+.invoiceHolderRecur1{
+	width: 100%;
+	margin-top: 178px;
+	background-color: white;
+}
+.invoiceHolderCollection{
+	width: 100%;
+	/* margin-top: 262px; */
+	background-color: white;
+	padding-bottom: 500px;
+	margin-bottom:-14px;
+}
+
+.buttonFont{
+	font-weight: bold;
+}
+
+.lineAll{
+	position: absolute;
+	width: 2px;
+	margin-top: 20px;
+	height: 2px;
+	background-color: red;
+
+}
+.center {
+	right: 50%;
+	margin-right: -450px;
+	width: 990px;
+	height: 45px;
+	margin: 0 auto;
+	background-color:#f0f6f0;
+	border-radius:5px 5px 0px 0px;
+}
+
+.SearchPic{
+	width: 10px;
+	height: 27px;
+	margin-left: 5px;
+}
+
+.button{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 27px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	margin-top:5px;
+	cursor: pointer;
+}
+.buttonRecurr1{
+	background-color: 5E5353;
+	width: 85px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top: 5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.buttonRecurr1New{
+	margin-left: -1px;
+	background-color: 5E5353;
+	width: 85px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top: 5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.buttonSend{
+	background-color:#C8C8C8 ;
+	width: 85px;
+	height: 27px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.buttonAdd{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 27px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.buttonPrint{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 27px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.type_topvideos .videos-form {
+	font-size: 11px;
+	color: #000;
+	margin: 25px 0 0 0;
+	text-align: center;
+}
+
+#search2{
+	margin-left:530px;
+	height: 26px;
+	margin-top:-26px;
+	width: 200px;
+	text-align: center;
+}
+.textBy{
+	margin-left:748px;
+	height: 26px;
+	margin-top:-25px;
+}
+.select2{
+	margin-left:775px;
+	height: 27px;
+	margin-top:-27px;
+}
+.search3{
+	/* margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px; */
+}
+.select{
+	background-color:#C8C8C8 ;
+	margin-left: 10px;
+	width: 150px;
+	height: 27px;
+	border:none;
+	border-radius: 5px 0px 7px 0px;
+	font-size:12px;
+}
+.selectRecur{
+	background-color: 5E5353;
+	margin-left: 10px;
+	width: 133px;
+	height: 27px;
+	border: none;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 12px;
+	color: whitesmoke;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.by{
+	margin-top: 120px;
+	margin-left:750px;
+}
+.option{
+	font-weight: bold;
+}
+.headText{
+	/* margin-right: -10px;
+	padding-top: 30px;
+	font-size: 28.24px; */
+}
+.headTextNewInvoice{
+	font-family: agency fb2;
+	padding-left: 10px;
+	/* font-style: italic; */
+	font-weight: none;
+	color: #398f72;
+	font-size: 28.24px;
+	padding-top:30px;
+}
+.headTextRecur1{
+	margin-right: -10px;
+	margin-top: -99px;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.headTextCollection{
+	/* margin-right: -10px;
+	/* margin-top: -174px; 
+	font-size: 28.24px;
+	padding-top: 22px;
+	color: #398f72;
+	font-family:agency fb2;
+	padding-left: 3px; */
+}
+.headTextNewRecur{
+	margin-right: -10px;
+	margin-top: -90px;
+	font-size: 30px;
+	padding-top: 22px;
+}
+
+.hrClass2{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -9px;
+}
+.hrClass3{
+	width:98%;
+	border: 2px solid gray;
+	/* margin-left: -15px; */
+	margin-top: -18px;
+}
+.hrClass4{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -10px;
+}
+.table1-new{
+	width:98%;
+	margin:auto;
+	margin-left:14px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+.table1-newRecur{
+	width: 98.4%;
+	margin-left: 9px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+.table2-new{
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 98.4%;
+	border-collapse:separate;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+}
+.table1{
+	width: 100%;
+	margin-left: 10px;
+	margin-top: 25px;
+	border-collapse:separate;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+}
+.table2{
+	margin-left: 8px;
+	margin-top: 68px;
+	width: 100%;
+	border-collapse:separate;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+}
+hrClass{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+.clients-hr{
+	width:985px;
+	border: 2px solid gray;
+	margin-left:5px;
+	margin-top: -11px;
+}
+.form-nRecurring{
+	background-color:#E5F1CE;
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 15px;
+	padding-bottom: 40px;
+}
+.form-new{
+	width: 98%;
+	padding-bottom: 40px;
+	margin-left: 5px;
+	margin-top: -35px;
+}
+.hr2{
+	margin-top: 290px;
+	margin-left: 9px;
+	width:876px;
+	border: 1.75px solid #D8D8D8;
+	box-shadow:  1.5px 0px 0px 1.5px white;
+}
+
+.cus{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+	background-color: #e5f1ce;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: 35px;
+}
+
+.sc{
+	
+}
+.ads{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #e5f1ce;
+	color:#006666;
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 42px;
+	}
+.add{
+	font-family: verdana;
+	font-style: normal;
+	font-size: 12px;
+	width: 231px;
+	height: 90px;
+	background-color: white;
+	border: 1px solid #C8C8C8;
+	margin-top: 2px;
+	max-width: 282px;
+	max-height: 90px;
+	padding:5px;
+}
+.newI_table{
+}
+.i{
+	font-family: CArial, Helvetica, verdana, sans-serif, tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}	
+.in{
+	
+}
+.d{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #e5f1ce;
+	color:#006666;
+	position: absolute;
+	margin-left: 542px;
+	margin-top: 45px;
+
+}
+.di{
+	
+}
+.dda{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #e5f1ce;
+	color:#006666;
+	position: absolute;
+	margin-left: 542px;
+	margin-top: 77px;
+	padding:5px;
+}
+.dd{
+	
+}	
+.ps{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #e5f1ce;
+	color:#006666;
+	position: absolute;
+	margin-left: 542px;
+	margin-top: 105px;
+
+}
+.poso{
+	
+}
+.dt{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #e5f1ce;
+	color:#006666;
+	position: absolute;
+	margin-left: 542px;
+	margin-top: 135px;
+
+}
+.dsc{
+	
+}	
+.m{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #e5f1ce;
+	color:#006666;
+	position: absolute;
+	margin-left: 542px;
+	margin-top: 170px;
+}
+.mm{
+	font-family: verdana;
+	font-style: normal;
+	font-size: 12px;
+	width: 190px;
+	height:90px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	max-width: 230px;
+	max-height: 90px;
+	padding:5px;
+	margin-top: 3px;
+}
+.c{
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 25px;
+	margin-left: 200px;
+	
+}
+h4{
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 20px;
+	color:#006666;
+}
+	
+
+
+.del{
+	background-repeat: no-repeat;
+	width: 23px;
+	height: 25px;
+	/* margin-left:-38px;	 */
+	font-style: italic;
+	font-size: 11px;
+	font-family: Calibri;
+	border:  none;
+	background:white;
+}
+
+.ray{
+	left: 200px;
+}
+
+.a2{
+	background-color: yellow;
+	width: 45px;
+	height: 27px;
+	color: red;
+	font-style: italic;
+	font-size: 11px;
+	font-family: Calibri;
+	border: 1px solid gray;
+}
+.a2:hover{
+	cursor: pointer;
+	color: red;	
+}
+.del2{
+	background-color: yellow;
+	width: 45px;
+	height: 27px;
+	color: red;
+	font-style: italic;
+	font-size: 11px;
+	font-family: Calibri;
+	border: 1px solid gray;
+}
+.del2:hover{
+	cursor: pointer;
+	color: red;
+}
+.ray{
+	right: -100px;
+}
+
+#white{
+	background-color: white;
+	border: 2px solid #F2F2E6;
+}
+td{
+	
+}
+th{
+	background-color:#25b5ef;
+	color:white;
+	font-size: 13px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	text-shadow: 0px 4px 1px 0px black;
+	padding: 7px;
+}
+.row-item{
+	height: 17px;
+	background-color:white;
+}
+.aa{
+	text-align: right;
+}
+
+.ccnew{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.cc1new{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.cccnew{
+	padding-left: 30px;
+	padding-right:30px;
+}
+.cc2new{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.ray1{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.ray1recur{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+}
+.recur2{
+	text-align: right;
+}
+.recur5{
+	text-align: right;
+	padding-right: 25px;
+}
+.ray1Invoice{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+}
+.mop{
+	text-align: center;
+	background-color:#fff;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+.check{
+	text-align:center; 
+	border-bottom: 1px solid #C8C8C8;
+}
+.ray2{
+	padding-right: 35px;
+}
+.frequency{
+	text-align: right;
+	padding-right: 25px;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.desc{
+	padding: 5px;
+}
+
+.taskno{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	text-align: left;	
+}
+.taskNo a{
+	color: blue;
+	font-weight: normal;
+	font-family: calibri;
+	font-size: 12px;
+}
+.taskno:hover{
+	cursor: pointer;
+}
+.itemno{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 200px;
+	padding-left: 4px;
+        text-align: left;
+}
+.itemno:hover{
+	cursor: pointer;
+}
+.table3{
+	width: 33%;
+	border-collapse: collapse;
+	background-color: #E8E8E8;
+	margin-left: 649px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;	
+}
+.table_collection{
+	border-bottom: 1px solid #C8C8C8;
+	background-color: #fff;
+}
+.table3-new{
+	width: 35%;
+	border-collapse:collapse;
+	background-color:#E8E8E8;
+	margin-left: 565px;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;	
+}
+.image4{
+	position: absolute;
+	margin-top: 15px;
+	width: 890px;
+	height:5px;
+	margin-left: 55px;
+}
+.image5{
+	margin-top: 10px;
+	width: 890px;
+	height:5px;
+	margin-left: 5px;
+}
+.image6{
+	margin-top: 10px;
+	width: 98%;
+	height:5px;
+	margin-left: 14px;
+}
+
+.adding{
+	border-radius: 5px;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 13px;
+	border: 1px solid #C8C8C8;
+	background-color: #fff;
+	
+}
+.adding select { 
+	width:200px; 
+}
+
+.adding select:focus {
+	width:auto; 
+}
+.adding option{
+  background-color: yellow;
+  color: black;
+}
+
+.table3, td{
+}
+.line4{
+	margin-top: 20px;
+	margin-left: 10px;
+	width:874px;
+	border: 1.75px solid #D8D8D8;
+	box-shadow:  1.5px 0px 0px 1.5px white;
+}
+.sa{
+	text-align: right;
+	font-size: 12px;
+	font-family: Calibri;	
+	padding-right: 5px;
+}
+.saRecur{
+	text-align: right;
+	font-size: 12px;
+	font-family: Calibri;
+	padding-right: 	42px;
+}
+.sv{
+	border-collapse: collapse;
+	border: 0px;
+	/* border-top:1px solid #C8C8C8;
+	border-left:1px solid #C8C8C8;
+	border-right:1px solid #C8C8C8;	 */
+	background-color: white;
+}
+.v{
+	border-collapse: collapse;
+	border: 0px;
+	/* border-left:1px solid #C8C8C8;
+	border-right:1px solid #C8C8C8;
+	border-bottom:1px solid #C8C8C8; */
+	background-color: white;	
+}
+.gt{
+	background-color: #25B5EF;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: calibri;
+	padding:5px;
+	padding-left:10px;
+	color:#fff;
+}
+#gt{
+	background-color: #25B5EF;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: calibri;
+}
+.gtotal{
+	border: 0px;
+}
+.t{
+	margin-top: 5px;
+	margin-left: 35px;
+	font-family: Verdana;
+	color: #000000;
+	font-weight: bold;
+	height: 27px;
+	font-size: 16px;
+}
+.tm{
+	margin-top: -20px;
+	margin-left: 33px;
+	border: 1px solid #C8C8C8;
+	width: 465px;
+	height: 106px;
+	max-width: 465px;
+	max-height: 106px;
+	border-color: #C8C8C8;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size:12px;
+	padding:5px;
+}
+.bn{
+	
+}
+.bPost{
+	width: 87px;
+	height: 28px;
+}
+.bPrintSend{
+	width: 105px;
+	height: 28px;
+}
+.bn3{
+	
+	}
+
+.buttonsaverecur{
+	margin-top: 25px;
+	margin-left: 200px;
+	background-color:#1EBE39;
+	width: 220px;
+	height: 40px;
+	color: white;
+	font-family: Calibri(Body);
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: none;
+}
+.buttonsaverecur2{
+	margin-top: 25px;
+	margin-left: 30px;
+	background-color:#1EBE39;
+	width: 220px;
+	height: 40px;
+	color: white;
+	font-family: Calibri(Body);
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: none;
+}
+.bn1{
+	margin-top: 25px;
+	margin-left: 30px;
+	background-color:#1EBE39;
+	width: 160px;
+	height: 40px;
+	color: white;
+	font-family: Calibri(Body);
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: none;	
+}
+.bn2{
+	margin-top: 25px;
+	margin-left: 30px;
+	background-color:#1EBE39;
+	width: 220px;
+	height: 40px;
+	color: white;
+	font-family: Calibri(Body);
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: none;
+}
+.bn3:hover{
+	text-decoration: underline;	
+}
+.bn:hover{
+	text-decoration: underline;	
+}
+.bn1:hover{
+	text-decoration: underline;	
+}
+.bn2:hover{
+	text-decoration: underline;
+}
+
+.div2{
+	background-color: #E5F1CE;
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	border-radius:10px 10px 0px 0px;
+	border: 0px;
+}
+.div2col{
+	/* background-color: #E5F1CE;
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	border-radius:10px 10px 0px 0px;
+	border: 0px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma; */
+}
+.buttoninvoices{
+	/* margin-left: 5px;
+	font-size: 17px;
+	font-family: agency fb2;
+	margin-top: 5px;
+	cursor: pointer;
+	color: #398f72;
+	border: none;
+	background:none;
+	letter-spacing:.1px; */
+}
+.delete2{
+	background-color:#C8C8C8;
+	width: 77px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	margin-top:5px;
+	cursor: pointer;
+	
+}
+.sendI{
+	/* background-color: #5E5353;
+	width: 92px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px; 
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top: 5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none; */
+}
+.print1{
+	background-color:#C8C8C8;
+	width: 77px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.addP{
+	background-color: #5E5353;
+	width: 104px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px; 
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top: 5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.searchindex{
+	/* margin-left: -4px;
+	margin-top: 6px;
+	width: 330px;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	background-repeat:no-repeat;
+	padding-left: 7px; 
+	padding-right: 25px; 
+	text-align: left;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size:13px;
+	background-image: url('<?= URL ?>public/images/za.png'); */
+}	
+
+.searchindexRecurring{
+	margin-left: 10px;
+	margin-top: 6px;
+	width: 21%;
+	height: 30px;
+	border: 1px solid #C0C0C0;
+	background-image:url('/unlibooks/public/images/search15.jpg');
+	background-repeat:no-repeat;
+	padding-left: 25px; 
+	text-align: left;
+}	
+.byn{
+	font-family: Calibri;
+	margin-left: 750px;
+	margin-top: -25px;
+	font-style: normal;
+}	
+
+.tcollect{
+	position: absolute;
+	margin-left: 630px;
+	margin-top: 10px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.tcollect2{
+	margin-left: 426px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	width:302px;
+}
+.php{
+	text-align: center;
+	border:none;
+	color: black;
+	width: 110px;
+	height: 25px;
+	position: absolute;
+	margin-left: 70px;
+	margin-top: -5px;
+	font-weight: bold;
+	font-size:12px;
+	font-family: Calibri;
+	text-transform:uppercase;
+}
+.phpcol{
+	text-align: right;
+	border:none;
+	color: black;
+	width: 110px;
+	height: 25px;
+	margin-left: 70px;
+	margin-top: -5px;
+	font-weight: bold;
+	font-size:14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	text-transform:uppercase;
+	padding-right:6px;
+}
+.tcollect1{
+	margin-left: 562px;
+	margin-top: 20px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-weight: bold;
+	font-size: 14px;
+}
+.php1{
+	text-align: center;
+	border: none;
+	color: black;
+	width: 110px;
+	height: 25px;
+	margin-left: 35px;
+	margin-top: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	text-transform: uppercase;
+	border-top: solid 1px #000;
+}
+.headinvoice{
+	font-family: Calibri;
+	
+}
+.cnitable{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+	font-family: Calibri;
+	font-size:12px;
+}
+
+.date{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	
+}
+.datecol{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+	
+}
+.dateRecurAll{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+}
+.dateInvoice{
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+	
+	
+}
+.recurringNo{
+	text-align: left;
+	border-collapse: collapse;
+	color: blue;
+	border-bottom: 1px solid #C8C8C8;
+}
+.cbox{
+	text-align: center;
+	border-bottom: 1px solid #C8C8C8;
+	background-color: white;
+	color: blue;
+}
+.cbox{
+	text-align: center;
+	border-bottom: 1px solid #C8C8C8;
+	background-color: white;
+}
+
+.payno{
+	color: blue;
+	border:none;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: center;
+	background-color:#fff;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.payno:hover{
+	cursor: pointer;
+}
+.paynocol{
+	color: blue;
+	border:none;
+	margin-top: 200px;
+	text-align: left;
+	background-color:#fff;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.paynocol:hover{
+	cursor: pointer;
+}
+.paynocol a{
+	color: blue;
+}
+.tamt{
+	text-align: right;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.tamtcol{
+	text-align: right;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.status{
+	text-align: center;
+}
+.edit{
+	font-size: 12px;
+	text-align: left;
+	color: blue;
+	margin-left:960px;
+	margin-top:70px;
+	position: absolute;
+}
+.edit2{
+	font-size: 12px;
+	text-align: left;
+	color: blue;
+	margin-left:960px;
+	margin-top:125px;
+	position: absolute;
+}
+.tablecni{
+	background-color: #fff;
+	font-size: 12px;
+	border-bottom: 1px solid #C8C8C8;
+}	
+.itotal{
+	margin-left: 685px;
+	margin-top: 10px;
+	font-family: Calibri;
+}
+.php{
+	text-align: right;
+	border:none;
+	color: gray;
+	width: 110px;
+}
+.app .app-search-icon {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	width: 14px;
+	height: 14px;
+	background-position: -597px -21px;
+}	
+
+
+.adel{
+	/* margin-left: 6px;
+	position: absolute;
+	margin-top: -9px; */
+	
+}
+.adelRecurring{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 9px;
+	
+}
+.recurringLine{
+	text-align: right;
+	padding: 5px;
+}
+.slash{
+	text-align: center;
+	width:12px;
+	height: 22px;
+	font-size: 17px;
+	border: none;
+	margin-left:-5px;
+	margin-top:1px;
+	position: absolute;
+}
+.adddel{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 9px;
+	
+}
+.by4{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.invoiceHolder2{
+	width: 100%;
+	margin-top: 178px;
+	background-color: white;
+	padding-bottom: 80px;
+}
+.Sdate{
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top:8px;
+	position: absolute;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #006666;
+	}
+.Edate{
+	font-size: 12px;
+	margin-left: 30px;
+	position: absolute;
+	margin-top: 35px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #006666;
+	
+}
+.customer{
+	font-size: 12px;
+	margin-left: 30px;
+	margin-top: 89px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #006666;
+}
+.customerInput{
+	margin-top: 1px;
+	width: 270px;
+	height:27px;
+	font-family: verdana;
+	font-size: 12px;
+	border: 1px solid #C8C8C8;
+	padding:5px;
+}
+.datepicker{
+	width: 145px;
+	height: 23px;
+	font-family: Calibri;
+	font-size: 12px;
+	background-color: white;
+	border: 1px solid #C8C8C8;
+	position: absolute;
+	margin-left: 22px;
+	margin-top: -5px;
+}
+.datepicker2{
+	margin-left: 28px;
+	margin-top: -4px;
+	width: 145px;
+	height: 23px;
+	font-family: Calibri;
+	font-size: 12px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	position: absolute;
+}
+.txtFrequency{
+	font-size: 12px;
+	margin-top: 62px;
+	margin-left: 30px;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #006666;
+	}
+
+.frequencyOption{
+	font-family: Calibri;
+	font-size: 12px;
+	width: 145px;
+	height: 23px;
+	margin-left: 28px;
+	margin-top:-18px;
+	border: 1px solid #C8C8C8;
+	
+}
+.email{
+	font-size: 12px;
+	padding-top: 27px;
+	font-style: italic;
+	margin-left: 30px;
+	font-family: verdana;
+	font-weight: normal;
+	color: #000000;
+}
+.emailbox{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 32px;
+	margin-left: -13px;
+}
+.emailboxInvoice{
+	font-family: verdana;
+	font-size: 12px;
+	margin-top: 32px;
+}
+
+.poso1{
+	font-size: 12px;
+	padding-top:-300px;
+	padding-left: 340px;
+	font-family: Calibri;
+}
+
+.aleft{
+    text-align: left;
+	width: 381px;
+}
+.aleftNewDes{
+    text-align: left;
+	width: 412px;
+	padding: 5px;
+}
+.aleft2{
+    text-align: left;
+}
+.aleftRay{
+    text-align: left;
+	margin-left: 40px;
+}
+
+.aright{
+    text-align: right;
+	width: 115px;
+}
+
+.arightQty{
+    text-align: right;
+	width: 123px;
+}
+.aright2{
+	text-align: right;
+	width: 120px;
+}
+#new2{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.table1-new,th{
+	padding: 0;
+}
+.table1-newRecur,th{
+	padding: 0;
+}
+.RecuNoNew{
+
+}
+.tblNew1{
+	margin-left: 6px;
+	font-size: 12px;
+	font-family: verdana;
+	color: #000000;
+	font-weight: normal;
+}
+.tblNew1 td{
+	padding-left:20px;
+}
+.recurTable{
+	background-color: #E5F1CE;
+}
+
+.SdateRecurr{
+	padding-top: 20px;
+}
+.EdateRecur{
+	padding-top: -5px;
+}
+.discount2{
+	margin-top: 2px;
+	border: 1px solid #C8C8C8;
+	height: 27px;
+	width: 190px;
+}
+.discount1{
+}
+.EdateRecur2{
+	margin-top: 5px;
+}
+.inputboxes{
+	height: 27px;
+	width: 190px;
+	font-family: verdana;
+	font-size: 12px;
+	border: 1px solid #C8C8C8;
+	margin-top: 17px;
+	padding:5px;
+}
+.inputbox2{
+	height: 27px;
+	width: 190px;
+	font-family: verdana;
+	font-size: 12px;
+	border: 1px solid #C8C8C8;
+	margin-top: 2px;
+	padding:5px;
+}
+.recurTable2{
+	background-color: #E5F1CE;
+}
+
+.head_collect{
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+}
+.alignHeader{
+	text-align: left;
+}
+.alignHeader1{
+	text-align: left;
+}
+.alignHeader2{
+	text-align: left;
+	width: 200px;
+}
+.totalAmountHeader{
+	text-align: right;
+	width: 150px;
+}
+.tamtInvoice{
+	text-align: right;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.alignHeader3{
+	text-align: center;
+	width: 160px;
+}
+.search-box select {
+    width: 130px;
+    height: 30px;
+    border: none;
+	font-weight: bold;
+    font-family: tahoma;   
+    font-size: 12px;
+    padding: -10px 0px 10px 10px;
+    cursor:pointer;
+	border-radius: 5px;	
+	background-image:url('/unlibooks/public/images/arrowselect.png');
+	background-repeat: no-repeat;
+	background-position: 3px;
+}
+
+.size-container {
+	position: absolute;
+    overflow: hidden;
+    width: 100px;
+	height: 10px;
+    display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.size-container {
+    width: 80px;
+	height: 28px;
+	text-align: center;
+    display: inline-block;
+    background: url("../unlibooks/public/images/option.png") no-repeat right #c8c8c8;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left:10px;
+	border: solid 1px #C8C8C8;
+}
+.tasknoNinvoice{
+	color: blue;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: calibri;
+	text-shadow: none;
+	font-weight: none;
+}
+.tasknoNinvoice a{
+	color: blue;
+	font-size: 12px;
+	text-shadow: none;
+	font-weight: none
+	
+}
+
+.size1-container {
+	position: absolute;
+    overflow: hidden;
+    width: 100px;
+	height: 10px;
+    display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.size1-container {
+    width: 80px;
+	height: 28px;
+	text-align: center;
+    display: inline-block;
+    background: url("../unlibooks/public/images/option.png") no-repeat right #c8c8c8;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left:10px;
+	border: solid 1px #C8C8C8;
+}
+.tasknoNinvoice{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	text-align: left;
+
+}
+.tasknoNinvoiceRate{
+	color: blue;
+	font-size: 12px;
+	font-family: calibri;
+	text-shadow: none;
+	font-weight: none;
+	text-align: left;
+	
+}
+
+.tasknoNinvoiceDes{
+	color: blue;
+	font-size: 12px;
+	font-family: calibri;
+	text-shadow: none;
+	font-weight: none;
+	text-align: left;
+	width: 46%;
+}
+.tasknoNinvoiceDes2{
+	width: 390px;
+}
+.tasknoNinvoiceDes2Recur{
+	width: 404px;
+}
+.search-box2 select {
+    width: 130px;
+    height: 30px;
+    border: none;
+	font-weight: bold;
+    font-family: tahoma;   
+    font-size: 12px;
+    padding: -10px 0px 10px 10px;
+    cursor:pointer;
+	border-radius: 5px;	
+	background-image:url('/unlibooks/public/images/arrowselect.png');
+	background-repeat: no-repeat;
+	background-position: 3px;
+	
+}
+
+/*New Recurring*/
+
+.recurTable22{
+	background-color: #E5F1CE;
+}
+.RecurTable2{
+	
+}
+.poso12{
+	padding-top: 9px;
+	padding-left: 100px;
+}
+.poso2{
+	border: 1px solid #C8C8C8;
+	margin-top: 1px;
+	height: 27px;
+	width: 190px;
+}
+.poso1New{
+}
+.memo1{
+	
+}
+.memo2{
+	margin-top: 2px;
+	width: 230px;
+	height:90px;
+	border-color: c8c8c8;
+	padding: 5px;
+	max-width: 230px;
+	max-height: 90px;
+	font-family:verdana;
+	font-size:12px;
+}
+.image5Recurring1{
+	margin-top: 10px;
+	width: 890px;
+	height:5px;
+	margin-left: 5px;
+}
+.tableNewRecurrNew{
+	margin-top: 10px;
+	width: 99%;
+	margin-left: 10px;
+}
+.thRecurring{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+}
+.thRecurring4{
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 40px;
+}
+.thRecurring2{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 40px;
+}
+.thRecurring3{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 17px;
+}
+.thRecurring6{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 105px;
+}
+.thRecurring7{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+}
+.thRecurring8{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	height:37px;
+	width: 128px;
+}
+.itemnoRecur{
+	color: blue;
+	text-align: left;
+	padding-left: 40px;
+}
+.nameRecur{
+	text-align: left;
+	padding-left: 7px;
+}
+.nameRecur2{
+	text-align: left;
+	padding-left: 10px;
+}
+.row-recurring{
+	border-bottom: 1px solid #C8C8C8;
+	background-color: #fff;
+	font-size: 12px;
+	font-family: calibri;
+	color: black;
+}
+.cccunit{
+	text-align: left;
+	padding-left: 7px;
+}
+.cc2hour{
+	text-align: left;
+	padding-left: 130px;
+}
+.cc2hour2{
+	text-align: left;
+}
+.aaNet{
+	text-align: right;
+	padding-right: 40px;
+}
+.itemnoRecur2{
+	color: black;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.itemnoRecur2  a{
+	color: blue;
+}
+
+.size-container1{
+	padding-left: 13px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+.search-box1{
+	border-radius: 5px;
+}
+.row-recurring{
+	height: 30px;
+}
+.thRecurring6{
+	height: 37px;
+}
+/*All Collection*/
+.headtextCol{
+	margin-right: -10px;
+	margin-top: -210px;
+	font-size: 30px;
+	padding-top: 10px;
+}
+.addpayment{
+	background-color:#C8C8C8 ;
+	width: 90px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.butoonRecurring{
+	background-color:#C8C8C8 ;
+	width: 90px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 7px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.edit1{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.delete{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.search3{
+	/* margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px; */
+}
+.txtsearch{
+	margin-left: 15px;
+	margin-top: 6px;
+	width: 21%;
+	height: 30px;
+	border: 1px solid #C0C0C0;
+	text-align: left;
+	/* background-image:url('/unlibooks/public/images/imagesearch1.png'); */
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left: 22px;
+}
+.txtsearch2{
+	/* margin-left: -5px;
+	margin-top: 6px;
+	width: 330px;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	text-align: left;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left: 7px;
+	font-family:verdana;
+	font-size:12px;
+	padding-right: 5px; */
+}
+.collectionth{
+	text-align: left;
+}
+.collectionth2{
+	text-align: right;
+}
+.ttt{
+}
+/*all Clients*/
+.customerHolder{
+	width: 100%;
+	background-color: white;
+	padding-bottom: 500px;
+	margin-top: 50px;
+	box-shadow: 10px 4px 7px -9px rgba(50, 50, 50, 0.75), -6px 5px 11px -7px rgba(50, 50, 50, 0.75);
+	margin-bottom: -13px;
+}
+.ac{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	font-size: 30px;
+	/* margin-top: 93px; */
+	padding-top: 32px; 
+}
+	
+.cusContainer{
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	background-color:#E5F1CE;
+	border-radius:5px 5px 0px 0px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+}
+.dlt{
+	/* background-color:#5e5353 ;
+	width: 90px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:5px;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke; */
+}
+.clientEdit{
+	/* background-color:#5e5353 ;
+	width: 90px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:5px;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke; */
+}
+.createI{
+	background-color:#C8C8C8 ;
+	width: 100px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.aPayment{
+	background-color:#C8C8C8 ;
+	width: 100px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.trans{
+	background-color:#C8C8C8 ;
+	width: 89px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.cSearch{
+	/* margin-left: -3px;
+	margin-top: 6px;
+	width: 330px;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	text-align: left;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left: 7px;
+	font-size:12px;
+	font-family:verdana;
+	padding-right:36px; */
+}	
+
+.cSearchhmo{
+	/* margin-left: -3px;
+	margin-top: 6px;
+	width: 303px;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	text-align: left;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left: 7px;
+	font-size:12px;
+	font-family:verdana; */
+	
+}
+.byBy{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.cNumber{
+	/* background-color:#5e5353 ;
+	margin-left: 344px;
+	width: 118px;
+	height: 33px;
+	border:none;
+	font-size:12px;
+	border: none;
+	color: whitesmoke;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma; */
+}
+.cNumberhmo{
+	/* background-color:#5e5353 ;
+	margin-left: 338px; 
+	height: 33px;
+	border:none;
+	font-size:12px;
+	border: none;
+	color: whitesmoke;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma; */
+}
+.imEx{
+	background-color: #5e5353;
+	width: 121px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 2px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+customer_table{
+	font-family: Calibri;
+	width: 990px;
+}
+.customer_row{ 
+	text-align: center;
+	background-color:#fff;
+	border-bottom: 1px solid #D0D0D0;
+	margin-top: 5px;
+}
+.trcustomer_table{	
+}
+.cnitableClient{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+	font-family: Calibri;
+	font-size:12px;
+}
+.cb1{
+	text-align: center;
+}
+.cusNo1{
+	text-align: left;
+	
+}
+.cusName1{
+	text-align: left;
+}
+.dateDate1{
+	text-align: left;
+}
+.cusTran1{
+	text-align: left;
+
+}
+.tBalance1{
+	text-align: left;
+}
+.cusNo{
+	text-align: left;
+	color: blue;
+	font-size: 12px;
+	cursor: pointer;
+}
+.cusNo a{
+	color: blue;
+}
+.cusName3{
+	text-align: left;
+	font-size: 12px;
+	font-family: calibri;
+	
+}	
+.dateDate{
+	text-align: left;
+	font-size: 12px;
+}
+.cusTran{
+	text-align: left;
+	font-size: 12px;
+}
+.tBalance{
+	text-align: left;
+	font-size: 12px;
+}
+/*all Items*/
+.ItemHolder{
+	width: 100%;
+	margin-top: 38px;
+	background-color: white;
+	padding-top: 5px;
+}
+#newItem{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.textHead{
+	margin-top: 27px;
+	font-size: 30px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+
+.centerItem {
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left: 5px;
+	background-color:#E5F1CE;
+	border-radius:5px 5px 0px 0px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+}
+.buttonImp{
+	background-color:#5E5353 ;
+	width: 104px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	margin-left: 5px;
+	border: none;
+	color: whitesmoke;
+}
+.searchItem{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px;
+}
+.searchindexItem{
+	margin-left: -3px;
+	margin-top: 6px;
+	width: 330px;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	text-align: left;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-right: 5px;
+	padding-left: 7px;
+	font-size:12px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.editItem{
+	background-color: #5e5353;
+	width: 115px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+.ciItem{
+	background-color:#C8C8C8 ;
+	width: 115px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}	
+.deleteItem{
+	background-color: #5e5353;
+	width: 115px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+.byItem{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.inumberItem{
+	background-color:#5e5353 ;
+	margin-left: 288px;
+	width: 125px;
+	height: 33px;
+	border:none;
+	font-size:14px;
+	color: whitesmoke;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.cnitableItem{
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 97%;
+	font-family: Calibri;
+}
+.headinvoiceItem{
+	font-family: Calibri;
+}
+.tableItem{
+	background-color:#fff;
+	border-bottom: solid 1px #C8C8C8;
+	font-size:12px;
+}
+.cboxItem{
+	text-align: center;
+	border: none;
+}
+.itemNoItem{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+.itemNoItem a{
+	color: blue;
+}
+.itemDesc{
+	text-align: left;
+	border-collapse: collapse;
+}
+.dateCreated{
+	text-align: left;
+	border-collapse: collapse;
+}
+.unitCost4{
+	text-align:right; 
+}
+.taxcodeItem{
+	text-align: center;
+
+}
+
+.taxCode{
+	text-align: left;
+	padding-left: 7px;
+}
+.thHead{
+	text-align: left;
+}
+.thHeadTc{
+	text-align: center;
+}
+.thHeadUN{
+	text-align: right;
+}
+.invoiceTAENTERPayment{
+	text-shadow: none;
+	font-size: 12px;
+	font-size: 12px;
+	font-family: calibri;
+}
+.chk{
+	color: blue;
+}
+.description{
+	
+}
+.rate{
+	
+}
+.hour{
+	
+}
+.tasknoNinvoiceRate2{
+}
+
+
+.aleftNew{
+    text-align: left;
+	padding-left: 40px;
+	width: 50px;
+}
+.descNew{
+	width: 100px;
+	text-align: left;
+	padding-left: 40px;
+}
+.arightNew{
+	text-align: right;
+	padding: 5px;
+	width: 102px;
+}
+.arightNewRecurring{
+	text-align: right;
+	padding: 5px;
+	width: 113px;
+}
+.arightNewItemNo{
+	text-align: left;
+	padding: 5px;
+}
+.items {
+	width: 100%;
+	height: 25px;
+	border: none;
+}
+
+.description2{
+	width: 244px;
+	font-size: 12px;
+	font-family: calibri;
+	height: 25px;
+	margin-left: -10;
+}
+
+.arightNew2{
+    text-align: right;
+	padding-right: 57px;
+}
+.arightNew3{
+    text-align: right;
+	padding-right: 17px;
+}
+
+
+.table2-new {
+	border-collapse: collapse;
+}
+
+.row-item tr:hover {
+background-color: c8c8c8;
+}
+
+
+.thRecurringDesc{
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 50px;
+}
+.thRecurring2{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 40px;
+}
+.thRecurring3{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 17px;
+}
+.thRecurring6{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 105px;
+}
+.thRecurringqty{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 57px;
+	width: 100px;
+}
+.thRecurringUnitCost{
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+	height:37px;
+	width: 128px;
+	padding-right:59px;
+}
+.TextLine{
+		border: none;
+		width: 100%;
+		height: 100%;
+		padding: 0;
+}
+
+.table1-new, td {
+	padding: none;
+	
+}
+.table1-newRecur, td {
+	padding: none;
+}
+.table1-new input[type="text"]{
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	height: 25px;
+	border: none;
+	padding: 5px;
+}
+.table1-newRecur input[type="text"]{
+	width: 100%;
+	font-size: 12px;
+	font-family: calibri;
+	height: 25px;
+	border: none;
+	padding: 5px;
+}
+
+.table2-new input[type="text"]{
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	height: 25px;
+	border: none;
+	padding: 5px;
+}
+.RecuNoNew {
+	margin-left: -252px;
+	margin-top: 12px;
+	width: 170px;
+	border: 1px solid #C8C8C8;
+}
+.textNewPad{
+	font-size:12px;
+	font-family:verdana;
+	padding:5px;
+}
+.ParticularTd{
+	float: right;
+	margin-left: 81px;
+	margin-top: -15px;
+}
+.cusName3 a{
+}
+
+.copyNew{
+	/* background-color: #5e5353;
+	width: 65px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none; */
+}
+
+.printPrev{
+	/* background-color: #5e5353;
+	width: 92px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none; */
+}
+.search2{
+	background-color: #5e5353;
+	width: 85px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 6px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.searchhidden{
+	background-color: #5e5353;
+	width: 85px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 6px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+/* .search2Colpat{
+	width: 29px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+	background-image: url('/unlibooks/public/images/za.png');
+	border: solid 1px #c8c8c8;
+	background-color: rgb(230, 250, 222);
+	background-repeat: no-repeat;
+	background-position: 3px;
+	
+} */
+
+
+
+.linetext{
+	text-align: right;
+	padding: 3px;
+}
+.RateTH{
+	padding: 0px;
+}
+.NetAmountText{
+	
+}
+.isNumeric{
+	border: none;
+}
+#invoicetotal{
+	background-color:#25B5EF;
+	border: none;
+	color:#fff;
+	font-weight:bold;
+}
+.invoiceNoTextNew{
+	margin-top: 5px; 
+	padding-left: 3px;
+	color: #000000;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: normal;
+	font-style: italic;
+	text-shadow: 0px 2px 0px white;
+	padding-bottom:5px;
+}
+.currencyTable tr{
+	font-size:12px;
+	background-color: #E5F1CE;
+	color: #000000;
+	font-weight:normal;
+	font-family:verdana;
+}
+.currencyTable{
+	margin-top: 10px; 
+}
+.exchange{
+	width: 81px;
+	padding: 2px 5px 2px 5px;
+	font-size: 12px;
+	font-family: calibri;
+	margin-left:7px;
+	height:27px;
+}
+.mystyle{
+	border-bottom: solid 1px #c8c8c8;
+}

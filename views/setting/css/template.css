@@ -1,0 +1,779 @@
+
+.invoiceHolderCharts{
+	width: 100%;
+	margin-top: 217px;
+	background-color: white;
+}
+#newCharts{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.chartsForm{
+	background-color: white;
+	padding-top: 1px;
+	padding-bottom: 200px;
+}	
+.headTextCharts{
+	margin-top: -88px;
+	font-size: 30px;
+	padding-top: 34px;
+}
+.hrClass4Charts{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -25px;
+}
+.div2Charts{
+	background-color: #E5F1CE;
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	border-radius:10px 10px 0px 0px;
+	border: 0px;
+}
+.button_containerCharts{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 25px;
+}
+.addpaymentCharts{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-top: 7px;
+}
+.printCharts{
+	background-color:#5e5353;
+	width: 128px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.edit1Charts{
+	background-color:#5e5353;
+	width: 128px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+
+.head_collectCharts{
+	font-family: Calibri;
+	letter-spacing:1px;
+	font-size: 13px;
+	background-color: #55C768;
+	color: white;
+	height: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+.collect_tableCharts{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 98%;
+	font-family: Calibri;
+	font-size:12px;
+}
+.table_collectionCharts{
+	background-color: white;
+	height: 25px;
+	border-bottom: 1px solid #C8C8C8;
+}
+.table_collectionCharts2{
+	background-color: white;
+	height: 25px;
+	border-bottom: 1px solid #C8C8C8;
+}
+
+.checkboxCharts{
+	text-align: center;
+	
+
+}
+.paynoCharts{
+	color: black;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	width: 200px;
+	font-size: 12px;
+	font-family: calibri;
+	font-weight: bold;
+	padding-left: 1px;
+}
+.paynoCharts2{
+	color: black;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	width: 200px;
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 1px;
+}
+.cboxCharts{
+	text-align: center;
+	border: none;
+	background-color: white;
+	width: 40px;
+}
+.cboxCharts2{
+	text-align: center;
+	border: none;
+	background-color: white;
+	width: 40px;
+}
+
+
+.invoiceHolderTaxes{
+	width: 100%;
+	margin-top: 170px;
+	background-color: white;
+	padding-bottom: 250px;
+}
+#newTaxes{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.headTextTaxes{
+	margin-top:-88px;
+	font-size: 30px;
+	padding-top: 34px;
+}
+.hrClass4Taxes{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -25px;
+}
+.div2Taxes{
+	background-color: #E5F1CE;
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	border-radius:10px 10px 0px 0px;
+	border: 0px;
+}
+.button_containerTaxes{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 25px;
+}
+.addpaymentTaxes{
+	background-color:#5e5353 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-top: 7px;
+	color: whitesmoke;
+	border: none;
+}
+.printTaxes{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.edit1Taxes{
+	background-color:#5e5353;
+	width: 128px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+
+.head_collectTaxes{
+	font-family: Calibri;
+	letter-spacing:1px;
+	font-size: 13px;
+	background-color: #55C768;
+	color: white;
+	height: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+.collect_tableTaxes{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 98%;
+	font-family: Calibri;
+	font-size:12px;
+}
+.table_collectionTaxes{
+	background-color: white;
+	border-bottom: solid 1px #C8C8C8;
+	height: 25px;
+}
+.checkboxTaxes{
+	text-align: center;
+
+}
+.paynoTaxes{
+	color: black;
+	border:none;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	width: 200px;
+	font-size: 12px;
+	font-family: calibri;
+}
+.paynoTaxes2{
+	color: black;
+	border:none;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	width: 200px;
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 1px;
+}
+.cboxTaxes{
+	text-align: center;
+	border: none;
+	background-color: white;
+	width: 40px;
+}
+
+
+
+.invoiceHolderBANK{
+	width: 100%;
+	margin-top: 182px;
+	background-color: white;
+	padding-bottom: 200px;
+}
+#newBANK{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.headTextBANK{
+	margin-top: -101px;
+	font-size: 30px;
+	padding-top: 34px;
+}
+.hrClass4BANK{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -25px;
+}
+.div2BANK{
+	background-color: #E5F1CE;
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	border-radius:10px 10px 0px 0px;
+	border: 0px;
+}
+.button_containerBANK{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 25px;
+}
+.addpaymentBANK{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-top: 7px;
+}
+.printBANK{
+	background-color:#5e5353;
+	width: 128px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.edit1BANK{
+	background-color:#5e5353;
+	width: 128px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+
+.head_collectBANK{
+	font-family: Calibri;
+	letter-spacing:1px;
+	font-size: 13px;
+	background-color: #55C768;
+	color: white;
+	height: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+.collect_tableBANK{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 98%;
+	font-family: Calibri;
+	font-size:12px;
+}
+.table_collectionBANK{
+	background-color: white;
+	border-bottom: solid 1px #C8C8C8;
+	height: 25px;
+}
+.checkboxBANK{
+	text-align: center;
+
+}
+.paynoBANK{
+	color: black;
+	border:none;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	width: 200px;
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 1px;
+}
+.cboxBANK{
+	text-align: center;
+	border: none;
+	background-color: white;
+	width: 40px;
+}
+
+.invoiceHolderUseP{
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+	padding-bottom: 250px;
+	margin-top: -84px;
+}
+#newUseP{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	font-size:30px;
+}
+.headTextUseP{
+	margin-top: 39px;
+	font-size: 30px;
+	padding-top: 25px;
+}
+.hrClass4UseP{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -8px;
+}
+.div2UseP{
+	background-color: #E5F1CE;
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left:5px;
+	border-radius:10px 10px 0px 0px;
+	border: 0px;
+}
+.button_containerUseP{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 25px;
+}
+.addpaymentUseP{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-top: 7px;
+	color:whitesmoke;
+}
+.printUseP{
+	background-color:#5e5353;
+	width: 128px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color; whitesmoke;
+	border: none;
+	
+}
+.edit1UseP{
+	background-color:#5e5353;
+	width: 128px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+
+.head_collectUseP{
+	font-family: Calibri;
+	letter-spacing:1px;
+	font-size: 13px;
+	background-color: #55C768;
+	color: white;
+	height: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+.collect_tableUseP{
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 98%;
+	font-family: Calibri;
+	font-size:12px;
+}
+.table_collectionUseP{
+	background-color: white;
+	border-bottom: solid 1px #C8C8C8;
+	height: 25px;
+}
+.checkboxUseP{
+	text-align: center;
+}
+.paynoUseP{
+	color: black;
+	border:none;
+	margin-top: 200px;
+	padding-left: 0px;
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	width: 200px;
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 1px;
+}
+.cboxUseP{
+	text-align: center;
+	border: none;
+	background-color: white;
+	width: 40px;
+}
+.checkP{
+	width: 20px;
+	background-color: white;
+}
+/*Company Profilr*/
+.companyHolder{
+	width: 100%;
+	margin-top: 189px;
+	background-color: white;
+	padding-bottom: 200px;
+}
+.companyHolderNew1{
+	width: 1000px;
+	margin: auto;
+	margin-top: 0px;
+	background-color: white;
+	padding-bottom: 200px;
+	padding-top: 20px;
+	margin-bottom: -142px;
+}
+#company-new{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}	
+.headText{
+	margin-top: 5px;
+	font-size: 30px;
+}
+
+.company-form{
+	
+}
+
+.tablecompany{
+}
+
+.cnText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 54px;
+	margin-left: 35px;
+}
+
+.caText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 86px;
+	margin-left: 35px;
+}
+.companyAdd{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 145px;
+	margin-top:79px;
+	width: 350px;
+	height: 87px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.tinText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 176px;
+	margin-left: 35px;
+}
+.tinNo{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 145px;
+	margin-top:170px;
+	width: 350px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.upload1{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 35px;
+}
+.uplogo1{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+
+
+.fnText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 54px;
+	margin-left: 575px;
+}
+.faxNo{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 665px;
+	margin-top:48px;
+	width: 200px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.btText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 86px;
+	margin-left: 575px;
+}
+.bType{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 665px;
+	margin-top:79px;
+	width: 200px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.cText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 575px;
+}
+.currency{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 665px;
+	margin-top:145px;
+	width: 200px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.divSave{
+}
+
+.EmailText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 575px;
+}
+.EmailType{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 665px;
+	margin-top:112px;
+	width: 200px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.businessType{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 89px;
+	margin-top:-21px;
+	width: 200px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.cityText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 210px;
+	margin-left: 35px;
+}
+.cityInput{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 145px;
+	margin-top:203px;
+	width: 350px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.provinceText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 35px;
+}
+
+.countryText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 35px;
+}
+.countryType{
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 109px;
+	margin-top:-18px;
+	width: 350px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+}
+.buttonBrowsecompany{
+	margin-left: 55px;
+	
+}
+

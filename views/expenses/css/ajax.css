@@ -1,0 +1,5802 @@
+.invoiceHolder{
+	width: 100%;
+	margin-top: 50px;
+}
+.invoiceHolderCNW{
+	width: 100%;
+	margin-top: 40px;
+}
+
+#new{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.nif{
+	width: 735px;
+	height: 280px;
+	margin: auto;
+}
+.divSaveBBelow{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 147px;
+}
+.InclusiveOfVatClientText{
+	position: absolute;
+	margin-top: 355px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-style: italic;
+}
+.InclusiveOfVatChartText{
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 35px;
+	font-family: Calibri;
+	font-size: 12px;
+	font-style: italic;
+	color: #003366;
+}
+.ni{
+	margin-top: -15px;
+	font-size: 30px;
+}
+
+hr{
+	width: 733px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+	
+}
+.hrNEWITEM{
+	width: 200px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+	
+}
+.close{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 695px;
+	
+}
+.itemA{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.iAccount{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 115px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.descT{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 35px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.itemI{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 115px;
+	width: 300px;
+	height:100px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 15px;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.unitC{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 455px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.uCost{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 562px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vat{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 455px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vatS{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 562px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.saveB{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.saanB{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+.companyForm{
+	width: 735px;
+	height:345px;
+	margin: auto;
+}
+.divCompanySaveBelow {
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 198px;
+}
+.companyid{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyidInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 40px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+}
+.companyName{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyNameInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 20px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyType{
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyTypeInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 27px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyTin{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyTinInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 67px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companylogo{
+	position: absolute;
+	margin-top: 145px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companylogoSubmit{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 36px;
+	width: 100px;
+	height: 27px;
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	font-style: italic;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 13px;
+}
+.companyActive{
+	position: absolute;
+	margin-top: 175px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyActivecheck{
+	position: absolute;
+	margin-top: 1px;
+	margin-left:10px;
+	background-color: gray;
+	border-radius: 5px;
+	border-color: solid 1px #C8C8C8;
+	
+}
+.companyphone{
+	position: absolute;
+	margin-top: -7px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyphoneInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 70px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyFax{
+	position: absolute;
+	margin-top: 28px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyFaxInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 87px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyAddress{
+	position: absolute;
+	margin-top: 64px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyAddInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 62px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+}
+.companyCity{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyCityInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 88px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyCode{
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyCodeInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 43px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companySave{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+	font-family: Calibri;
+	font-size: 13px;
+}
+.companySaveAdd{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+	font-family: Calibri;
+	font-size: 13px;
+}
+.PaymentTypeForm{
+	width: 735px;
+	height:200px;
+	margin: auto;
+}
+.paymentType{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.paymentTypeInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 40px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.paymentActive{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 370px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.paymentActivecheck{
+	position: absolute;
+	margin-top: 3px;
+	margin-left:5px;
+	background-color: gray;
+	border-radius: 5px;
+	border-color: solid 1px #C8C8C8;
+	
+}
+.bankActive{
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bankActivecheck{
+	position: absolute;
+	margin-top: 3px;
+	margin-left:10px;
+	border: none;
+	background-color: gray;
+	border-color: 1px gray;
+	border-radius: 5px;
+	
+}
+.paymentTypeSave{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.paymentTypeSaveAdd{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.bankid{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 15px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.bankidInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 52px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: 1px gray;
+	padding-left: 5px;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bankAccount{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 15px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bankAccountInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 22px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: 1px gray;
+	padding-left: 5px;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bankName{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bankNameInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 20px;
+	width: 200px;
+	height: 27px;
+	background-color: white;
+	padding-left: 10px;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.paymentTypeActive{
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 400px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 16px;
+}
+.paymentTypecheck{
+	position: absolute;
+	margin-top: 3px;
+	margin-left:10px;
+	border-color: 1px gray;
+	background-color: gray;
+	border-radius: 5px;	
+}
+.vendorForm{
+	width: 735px;
+	height:280px;
+	margin: auto;
+}
+.vendorid{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 20px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendoridInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 50px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorName{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 20px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorNameInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 60px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorEmail{
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 20px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorEmailInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 53px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorAdd{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 20px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorAddInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 91px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorPhone{
+	position: absolute;
+	margin-top: -3px;
+	margin-left: 415px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorPhoneInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 58px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorFax{
+	position: absolute;
+	margin-top: 32px;
+	margin-left: 415px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorFaxInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 75px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorCurrency{
+	position: absolute;
+	margin-top: 69px;
+	margin-left: 415px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorCurrencyInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 49px;
+	width: 130px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px gray;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorActive{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 415px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vendorActivecheck{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 20px;
+	background-color: white;
+	border-color: solid 1px gray;
+}
+.Vendorsave{
+	position: absolute;
+	margin-top: 146px;
+	margin-left: 452px;
+	width: 105px;
+	height:30px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.VendorSaveAdd{
+	position: absolute;
+	margin-top: 146px;
+	margin-left: 565px;
+	width: 150px;
+	height:30px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.financialDate{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.FinancialInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 20px;
+	width: 150px;
+	height: 27px;
+	font-family: Calibri;
+	font-size: 12px;
+	background-color: white;
+	padding-left: 10px
+}
+.FiscalInput{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 20px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+}
+.FiscalActive{
+	position: absolute;
+	margin-top: 3px;
+	margin-left: 370px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.FinancialSave{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.FinancialSaveAdd{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.FinancialForm{
+	width: 735px;
+	height:170px;
+	margin: auto;
+}
+.divFinancialBelow{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 41px;
+}
+.terms-form{
+	width: 735px;
+	height: 335px;
+	margin: auto;
+}
+.terms-head{
+	margin-left: -5px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.termCode{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 15px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tCode1{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 125px;
+	width: 150px;
+	height: 29px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.terms-desc{
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 50px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.terms-text{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 125px;
+	width: 280px;
+	height:110px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.ddDate{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 430px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.ddd-text{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 560px;
+	width: 130px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.t-active{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 430px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.taCheck{
+	position: absolute;
+	margin-top: 56px;
+	margin-left: 485px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 126px;
+}
+.terms-save{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 437px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.terms-saan{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 550px;
+	width: 160px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.salestax-form{
+	width: 735px;
+	height: 355px;
+	margin: auto;
+}
+.sales-head{
+	margin-left: -5px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.taxName{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tName{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 105px;
+	width: 150px;
+	height: 29px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.taxCode{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tCode{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 105px;
+	width: 150px;
+	height: 29px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.sales-desc{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 90px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.sales-text{
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 105px;
+	width: 300px;
+	height:100px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.taxRate{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 440px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tRate{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 520px;
+	width: 150px;
+	height: 29px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.s-active{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 440px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.saCheck{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 500px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.sales-save{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.sales-saan{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.project-form2{
+	width: 735px;
+	height:250px;
+	margin: auto;
+}
+.project-head{
+	margin-left: -5px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.project-acct{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 15px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.project-text{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 135px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.project-name{
+	position: absolute;
+	margin-top: 52px;
+	margin-left: 15px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.p-name{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 135px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.project-client{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 415px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.p-client{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 525px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.bill-method{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 415px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bill-text{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 525px;
+	width: 130px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.proj-save{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 447px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.proj-saan{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 560px;
+	width: 160px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.divBelowNewItem{
+	height: 50px;
+	width: 735px;
+	background-color: #E1F1CE;
+	margin-top: 240px;
+}
+.cni-form{
+	width: 735px;
+	height: 375px;
+	margin: auto;
+	font-family: Calibri;
+	font-size: 12px;
+	background: #fff;
+}
+.cni-head{
+	margin-left: -5px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.item-A{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.item-text{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 115px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.cni-desc{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 39px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.cni-text{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 115px;
+	width: 300px;
+	height:100px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.aveCost{
+	position: absolute;
+	margin-top: 153px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.aCost{
+	position: absolute;
+	margin-top: 154px;
+	margin-left: 115px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.unitCost{
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.u-Cost{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 115px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.cni-vat{
+	position: absolute;
+	margin-left: 460px;
+	margin-top: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vat-select{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 560px;
+	width: 125px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.cni-uom{
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 460px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.uom-select{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 560px;
+	width: 125px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.cni-categ{
+	position: absolute;
+	margin-top: 112px;
+	margin-left: 460px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.categ-select{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 560px;
+	width: 125px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.cni-save{
+	position: absolute;
+	margin-top:10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.cni-saan{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.divCOABelow{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 200px;
+}
+.coa-form{
+	width: 735px;
+	height: 355px;
+	margin: auto;
+}
+.coa-head{
+	margin-left: -5px;
+	margin-top: 5px;
+	font-size: 30px;
+}
+.coa-aNumber{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 15px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.coa-text{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 135px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-size: 12px;
+	font-family: calibri;
+}
+.coa-desc{
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 50px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.coa-txt{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 135px;
+	width: 280px;
+	height:110px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.coa-typeCode{
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 20px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.coa-type{
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 135px;
+	width: 130px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.coa-balance{
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 470px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.bal-text{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 545px;
+	width: 150px;
+	height: 31px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.coa-active{
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 470px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.coaCheck{
+	position: absolute;
+	margin-top: 57px;
+	margin-left: 515px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.coa-save{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 460px;
+	width: 102px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.coa-saan{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 567px;
+	width: 145px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+.invoiceHolderCNTs{
+	width: 100%;
+	margin-top: 50px;
+}
+#newCNTs{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.divCNTsBelow{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 160px;
+}
+.cnt-formCNTs{
+	width: 735px;
+	height: 280px;
+	margin: auto;
+	background-color: white;
+	
+}
+.cnt-headCNTs{
+	margin-top: -15px;
+	font-size: 30px;
+	font-family:verdana;
+}
+
+.hrCNTs{
+	width: 733px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+	
+}
+.closeCNTs{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 695px;
+	
+}
+.taskACNTs{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tAccountCNTs{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 115px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.descTCNTs{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 35px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.itemICNTs{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 115px;
+	width: 300px;
+	height:100px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.rphCNTs{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 455px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.rphICNTs{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 570px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.vatCNTs{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 455px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.vatSCNTs{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 570px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.saveBCNTs{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.saanBCNTs{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 12px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.check1{
+	margin-left:35px;
+	margin-top: 10px;
+	position: absolute;
+	
+}
+.check2{
+	margin-left: 35px;
+	margin-top: 40px;
+	position: absolute;
+	
+}
+.check3{
+	margin-left: 360px;
+	margin-top: 5px;
+	position: absolute;
+}
+.input1{
+	position: absolute;
+	font-family: Calibri(Body);
+	font-weight: bold;
+	font-size: 14px;
+	color: #003366;
+	margin-top: 4px;
+	margin-left: 55px;
+	width: 264px;
+	height:27px;
+	border: none;
+	background-color: white;
+	box-shadow: 0px 1px 1px 1px gray;
+	
+}
+.input2{
+	position: absolute;
+	font-family: Calibri(Body);
+	font-weight: bold;
+	font-size: 14px;
+	color: #003366;
+	margin-left:55px;
+	margin-top: 35px;
+	width: 264px;
+	height:27px;
+	border: none;
+	background-color: white;
+	box-shadow: 0px 1px 1px 1px gray;
+}
+.input3{
+	position: absolute;
+	font-family: Calibri(Body);
+	font-weight: bold;
+	font-size: 14px;
+	color: #003366;
+	margin-left: 380px;
+	margin-top: -4px;
+	width: 264px;
+	height:27px;
+	border: none;
+	background-color: white;
+	box-shadow: 0px 1px 1px 1px gray;
+}
+
+.ok_button{
+	position: absolute;
+	margin-left: 535px;
+	margin-top: 110px;
+	width: 108px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-size: 16px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+#new1{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	text-shadow: 1px 1px 5px gray;
+	
+}
+.nif1{
+	width: 810px;
+	height: 670px;
+	background-color: white;
+	margin: auto;
+}
+.divCNCBelow{
+	background-color: #E1F1CE;
+	width: 810px;
+	height: 50px;
+	position: absolute;
+	margin-top:533px;
+	
+}
+.ni1{
+	margin-top: -15px;
+	font-size: 32px;
+	text-shadow:none;
+}
+
+.hrCNC{
+	width:808px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+	
+}
+.close1{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	height: 25px;
+	margin-left:771px;
+}
+.customer_account{
+	
+	
+}
+.cAccountCNC{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.customerACNC{
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 154px;
+	width: 135px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.cNameCNC{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.customerNCNC{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 154px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.tnumberCNC{
+	position: absolute;
+	margin-top: 73px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.tinNCNC{
+	position: absolute;
+	margin-top: 73px;
+	margin-left: 154px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.eMailCNC{
+	position: absolute;
+	margin-top: 105px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.mailCNC{
+	position: absolute;
+	margin-top: 106px;
+	margin-left: 154px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.addSCNC{
+	position: absolute;
+	margin-top: 138px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.addressCNC{
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 154px;
+	font-family: Calibri;
+	font-size: 14px;
+	width: 248px;
+	height: 70px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.phoneNCNC{
+	position: absolute;
+	margin-top: 218px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.pNoCNC{
+	position: absolute;
+	margin-top: 217px;
+	margin-left: 154px;
+	width: 100px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.faxNCNC{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.fNoCNC{
+	position: absolute;
+	margin-top: 251px;
+	margin-left: 154px;
+	width: 100px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.ccpCNC{
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 419px;
+	font-family:Calibri;
+	font-style:italic;
+	font-size:12px;
+}
+.contactNaCNC{
+	position: absolute;
+	margin-top: 22px;
+	margin-left: 435px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.cusNameCNC{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 545px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+
+.contactNoCNC{
+	position: absolute;
+	margin-top: 56px;
+	margin-left: 435px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.cNoCNC{
+	position: absolute;
+	margin-top: 63px;
+	margin-left: 545px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.cEmailCNC{
+	position: absolute;
+	margin-top: 88px;
+	margin-left: 435px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.cEmCNC{
+	position: absolute;
+	margin-top: 95px;
+	margin-left: 545px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.asuCNC{
+	position: absolute;
+	margin-top: 275px;
+	margin-left: 14px;
+	font-family:Calibri;
+	font-style:italic;
+	font-size:12px;
+}
+.modCNC{
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.modICNC{
+	position: absolute;
+	margin-top: 306px;
+	margin-left: 154px;
+	width: 135px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.vatAsuCNC{
+	position: absolute;
+	margin-top: 334px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.asuVatCNC{
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 154px;
+	width: 135px;
+	height: 27px;
+	background-color: white;
+	font-size: 12px;
+}
+.currencyCNC{
+	position: absolute;
+	margin-top: 385px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.currencySCNC{
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 154px;
+	width: 135px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.termsAsuCNC{
+	position: absolute;
+	margin-top: 415px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.termsTaCNC{
+	position: absolute;
+	margin-top: 424px;
+	margin-left: 154px;
+	width: 248px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.dateCCNC{
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 14px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.dCreatedCNC{
+	position: absolute;
+	margin-top: 458px;
+	margin-left: 154px;
+	width: 135px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.activeACNC{
+	position: absolute;
+	margin-top: 480px;
+	margin-left: 14px;
+	font-family:Calibri;
+	font-style:italic;
+	font-size:12px;
+	color:#008B8B;
+}
+.aAccountCNC{
+	position: absolute;
+	margin-top: 495px;
+	margin-left: 112px;
+	height: 20px;
+	width: 12px;
+	
+}
+.bankACNC{
+	position: absolute;
+	margin-top: 295px;
+	margin-left: 435px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.bAccountCNC{
+	position: absolute;
+	margin-top: 306px;
+	margin-left: 565px;
+	width: 220px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.bankNCNC{
+	position: absolute;
+	margin-top: 332px;
+	margin-left: 435px;
+	color:#008B8B;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+.bNameCNC{
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 565px;
+	width: 220px;
+	height: 27px;
+	background-color: white;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.saveBCNC{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 530px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+.saanBCNC{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 645px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+.invoiceHolderENTERPayment{
+	width: 100%;
+	height: 50%;
+	margin-top: 50px;
+}
+#newENTERPayment{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+
+.form1ENTERPayment{
+	width: 800px;
+	height:520px;
+	margin: auto;
+	background: white;
+}
+.divbuttonsENTERPayment{
+	width: 800px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 43px;
+}
+
+.enterPaymentENTERPayment{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+.hrENTERPayment2{
+	width:99%;
+	border: 4px solid gray;
+	margin-top: -5px;
+	border-radius: 2px;
+	margin-left:1px;
+}
+.textInvoiceENTERPayment{
+	text-shadow: none;
+	margin-left: -25px;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: calibri;
+}
+.body1ENTERPayment{
+	padding: 10px;
+}
+.textInENTERPayment{
+	margin-top: -25px;
+	margin-left: 80px;
+}
+#textIn2ENTERPayment{
+	width: 100px;
+	height: 25px;
+	text-align: left;
+	font-weight: bold;
+	margin-left:10px;
+	margin-top: -15px;
+    color: black;
+    font-family: calibri;
+    font-size: 12px;
+	border: none;
+	padding-left: 5px;
+	
+}
+.textCust2ENTERPayment{
+	position: absolute;
+	width: 170px;
+	height: 25px;
+	text-align: left;
+	font-weight: bold;
+	margin-left: 15px;
+	color: black;
+    font-family: calibri;
+    font-size: 20px;
+	border: none;
+	padding-left: 5px;
+	font-size: 12px;
+	margin-top: -7px;
+}
+.textCustomerENTERPayment{
+	text-shadow: none;
+	margin-left: 210px;
+	margin-top: -35px;
+	font-size: 12px;
+	font-family: calibri; 
+}
+.payment2ENTERPayment{
+	width: 170px;
+	height: 25px;
+	text-align: left;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.paymentENTERPayment{
+	text-shadow: none;
+	margin-left: -15px;
+	margin-top: 20px;
+	font-size: 12px;
+	font-family: calibri;
+}
+.payCheckENTERPayment{
+	text-shadow: none;
+	margin-left: 16px;
+	margin-top:-5px;
+}
+.forPaENTERPayment{
+	text-shadow: none;
+	margin-left: -30px;
+	margin-top:-15px;
+	font-size: 12px;
+	font-family: calibri;
+}
+	
+.balAmountENTERPayment{
+	margin-left: 120px;
+	margin-top:-24px;
+	width: 220px;
+	height: 37px;
+	text-align: center;
+	font-weight: bold;
+	background-color:#EBF0E6;
+	border: none;
+	font-size: 12px;
+}
+.balanceENTERPayment{
+	text-shadow: none;
+	margin-left: -27px;
+	margin-top:25px;
+	background-color:#EBF0E6;
+	width: 300px;
+	height: 27px;
+	padding-left: 13px;
+	padding-top: 10px;
+	font-size: 12px;
+	font-family: calibri;
+}
+input[type="text"]{
+	font-style: black;
+}
+.invoiceTA2ENTERPayment{
+	margin-left: 190px;
+	margin-top:-20px;
+	width: 200px;
+	height: 25px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	font-size: 12px;
+	font-family: calibri;
+}
+.invoiceTAENTERPayment{
+	text-shadow: none;
+	margin-left: -15px;
+	margin-top:7px;
+	width: 370px;
+	height: 25px;
+	font-size: 12px;
+}
+.date2ENTERPayment{
+	width: 135px;
+	margin-left: 10px;
+	height: 25px;
+	text-align: left;
+	font-size: 12px;
+	font-family: calibri;
+	border: solid 1px #C8C8C8;
+	}
+	
+.dateENTERPayment{
+	text-shadow: none;
+	margin-left: 465px;
+	margin-top: -160px;
+	font-size: 12px;
+	font-family: calibri;
+}
+.selectMethodENTERPayment{
+		position:absolute;
+		margin-left: 383px;
+		margin-top: -8px;
+		text-shadow: none;
+		font-size: 12px;
+		font-family: calibri;
+}
+.selectMethod2ENTERPayment{	
+	width: 135px;
+	height: 25px;
+	margin-left: 10px;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}	
+.noteENTERPayment{
+	margin-left: 456px;
+	margin-top:83px;
+	text-shadow: none;
+	font-size: 12px;
+	font-family: calibri;
+}
+.note2ENTERPayment{	
+	width: 240px;
+	height: 77px;
+	margin-left: 43px;
+	margin-top: -25px;
+	border: solid 1px #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+}
+.body2ENTERPayment{
+	margin-left: 467px;
+	position: absolute;
+}	
+.closeENTERPayment{
+	margin-top: -68px;
+	margin-left: 780px;
+	background-color: #808080;
+	color: white;
+	border: none;
+	font-weight: bold;
+	border-radius: 2px;
+	height: 30px;
+}
+.transactionENTERPayment{
+	color: black;
+	font-style: italic;
+	margin-left:20px;
+	margin-top: 10px;
+	text-decoration:underline;
+	font-size: 20px;
+	font-family: calibri;
+}
+.referencePaymentInput{
+	width: 170px;
+	margin-left: 17px;
+	height: 25px;
+	text-align: left;
+	font-size: 12px;
+	font-family: calibri;
+	border: solid 1px #C8C8C8;
+	}
+	
+.referencePaymentText{
+	position: absolute;
+	text-shadow: none;
+	margin-left: 430px;
+	margin-top: 23px;
+	font-size: 12px;
+	font-family: calibri;
+}
+	
+.table1ENTERPayment{
+	width:610px;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 15px;
+	border-collapse:collapse
+}
+.tableContainerENTERPayment{
+	margin-left: 110px;
+	margin-top: 20px;
+}
+.tENTERPayment{
+	margin-top: -2px;
+}
+thENTERPayment{
+	background-color:#F0F0F0;
+	width:150px;
+}
+.tablethENTERPayment{
+	text-align: left;
+	padding-left: 10px;
+	text-shadow:none;
+	border:none;
+	font-family: calibri;
+	font-size: 13px;
+}
+.tableAmountENTERPayment{
+	text-align: right;
+	padding-left: 10px;
+	text-shadow:none;
+	font-size: 13px;
+	font-family: calibri;
+}
+.tblAmountENTERPayment{
+	text-align: right;
+	text-shadow:none;
+	font-size:12px;
+	font-family:calibri;
+}
+.tabletdENTERPayment{	
+	text-shadow:none;
+	
+}
+tr {
+	background-color: white;
+	border-color:#F0F0F0
+}
+.hr2ENTERPayment{
+	width: 610px;
+	margin-left: 1px;
+	height: 1px;
+	background-color: #D0D0D0;
+	border: none;
+	margin-top: 5px;
+}
+.hr4ENTERPayment{
+	width: 610px;
+	margin-left: 1px;
+	height: 1px;
+	background-color: #D0D0D0;
+	border: none;
+	margin-top: 20px;
+}
+
+.buttondownENTERPayment{
+	width: 100px;
+	height: 32px;
+	color: white;
+	font-weight:bold;
+	border-radius: 5px 5px 5px 5px;
+	background-color:#006666;
+	font-size: 12px;
+	font-family: calibri;
+	}
+.buttondown2ENTERPayment{
+	width: 170px;
+	height: 32px;
+	color: white;
+	font-weight:bold;
+	border-radius:5px 5px 5px 5px;
+	background-color:#006666;
+	font-size: 12px;
+	font-family: calibri;
+	 
+}	
+.tableTdENTERPayment{
+	text-align: left;
+	font-family:calibri;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 12px;
+	}
+.invoiceHolderLog1{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+.companyFormLog1{
+	float: right;
+	height: 100%;
+	margin: 0px;
+}
+.companyFormLog2{
+	float: right;
+	height: 100%;
+	margin: 0px;
+}
+
+.divlog1{
+	width: 500px;
+	height:100%;
+	background-color: #E5F1CE;
+	float: right;
+	margin: 0px;
+}
+.titlelog1{
+	font-size: 20px;
+	font-family: Calibri;
+	width: 500px;
+	text-align: center;
+	margin-top: 40px;
+}
+.title2log1{
+	font-size: 20px;
+	font-family: Calibri;
+	width: 500px;
+	text-align: center;
+	margin-top: 40px;
+	height: 40px;
+	background-color:1EBE39;
+	padding-top: 12px;
+	color: yellow;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #FF0000;
+}
+.text1log1{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: #E5F1CE;
+}
+.fullnameInputlog1{
+	position:absolute;
+	width: 310px;
+	height: 25px;
+	margin-left: 103px;
+	margin-top: -5px;
+}
+.text2log1{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 15px;
+	background-color: #E5F1CE;
+}
+.ONInputlog1{
+	position:absolute;
+	width:310px;
+	height: 25px;
+	margin-left:55px;
+	margin-top: -7px;
+}
+.text3log1{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: #E5F1CE;
+}
+.CSInputlog1{
+	position:absolute;
+	width:200px;
+	height: 25px;
+	margin-left:70px;
+	margin-top: -7px;
+}
+.text4log1{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: #E5F1CE;
+}
+.text4log1confirm{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: #E5F1CE;
+}
+.text5log1confirm{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: #E5F1CE;
+}
+.EMInputlog1{
+	position:absolute;
+	width: 310px;
+	height: 25px;
+	margin-left:78px;
+	margin-top: -7px;
+}
+.EMInputlog1confirm{
+	position:absolute;
+	width: 310px;
+	height: 25px;
+	margin-left:34px;
+	margin-top: -7px;
+}
+.text5log1{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: #E5F1CE;
+}
+.PassInputlog1confirm{
+	position:absolute;
+	width:  310px;
+	height: 25px;
+	margin-left:64px;
+	margin-top: -7px;
+}
+.PassInputlog1{
+	position:absolute;
+	width:  310px;
+	height: 25px;
+	margin-left:109px;
+	margin-top: -7px;
+}
+.Log1Check{
+	position: absolute;
+	margin-left:-20px;
+	margin-top:0px;
+}
+.text6log1{
+	margin-left: 30px;
+	font-family: calibri;
+	font-size:12px;
+	position: absolute;
+	margin-top: 10px;
+	
+}
+.text7log1{
+	position: absolute;
+	padding-left:44px;
+	font-family: calibri;
+	font-size:12px;
+	color:1EBE39;
+	font-weight:bold;
+	margin-left: 144px;
+	margin-top: 8px;
+}
+.text8log1{
+	position: absolute;
+	font-family: calibri;
+	font-size:12px;
+	margin-left: 337px;
+	margin-top: 6px;
+}
+.text9log1{
+	position: absolute;
+	padding-left: 362px;
+	font-family: calibri;
+	font-size:12px;
+	color:1EBE39;
+	margin-top: 4px;
+	font-weight:bold;
+}
+.Log1button{
+	position: absolute;
+	margin-left: 185px;
+	margin-top: 30px;
+	color: yellow;
+	height: 35px;
+	width: 120px;
+	background-color: #99CC33;
+	text-shadow: .5px 1px 1px black;
+	font-weight:bold;
+	border-radius: 7px;
+	font-size: 14px;
+	font-family:calibri;
+	
+}
+.log1Hr{
+	position: absolute;
+	height: 5px;
+	background-color: #55C768;
+	width: 500px;
+	margin-top: 75px;
+	border: none;
+	margin-left: 1px;
+}
+.text11log1{
+	position: absolute;
+	margin-left: 5px;
+	font-family: calibri;
+	font-size:12px;
+	margin-left:10px;
+	margin-top: 90px;
+	font-weight: bold;
+}
+.newLog1{
+	margin: 0px;
+}
+.getstartedbodyLog{
+	margin: 0px;
+}
+.text12log1{
+	position: absolute;
+	margin-left: 5px;
+	font-family: calibri;
+	font-size:12px;
+	margin-left:27px;
+	margin-top: 90px;
+	font-weight:bold;
+	color:#00CC00;
+}
+	
+.text13log1{
+	position: absolute;
+	margin-left: 5px;
+	font-family: calibri;
+	font-size:12px;
+	margin-left:58px;
+	margin-top: 90px;
+	font-weight: bold;
+}
+.invoiceHolderLog2{
+	width: 100%;
+	margin-top: 50px;
+}
+.companyFormLog2{
+	height: 100%;
+	margin: 0px;
+}
+.divlog2{
+	position: absolute;
+	width: 345px;
+	height:796px;
+	background-color: #E5F1CE;
+	margin-left: 1070px;
+	margin-top: -49px;
+}
+.titlelog2{
+	font-size: 20px;
+	font-family: Calibri;
+	width: 345px;
+	text-align: center;
+	margin-top: 40px;
+}
+.title2log2{
+	width: 500px;
+	height: 5px;
+	background-color:1EBE39;
+	border: none;
+	margin-left: 1px;
+}
+.title2lognew{
+	width: 500px;
+	height: 5px;
+	background-color:1EBE39;
+	border: none;
+	margin-left: 1px;
+	margin-top: 30px;
+}
+.text1log2{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 13px;
+	background-color: E5F1CE;
+}
+.fullnameInputlog2{
+	position:absolute;
+	width: 355px;
+	height: 25px;
+	margin-left: 30px;
+	margin-top: -5px;
+}
+.text2log2{
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 10px;
+	padding-top: 15px;
+	background-color: E5F1CE;
+}
+.ONInputlog2{
+	position:absolute;
+	width: 355px;
+	height: 25px;
+	margin-left:60px;
+	margin-top: -7px;
+}
+.text10log2{
+	position: absolute;
+	margin-left: 5px;
+	font-family: calibri;
+	font-size:10px;
+	color:1EBE39;
+	margin-left: 284px;
+	margin-top: 4px;
+	font-weight:bold;
+	background-color: E5F1CE;
+}
+.ban{
+	background-color: E5F1CE;
+}
+.Log2button{
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 30px;
+	color: yellow;
+	height: 35px;
+	width: 140px;
+	background-color: #99CC33;
+	text-shadow: .5px 1px 1px black;
+	font-weight:bold;
+	border-radius: 7px;
+	font-size: 15px;
+	font-family:calibri;
+}
+.text12log2{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	color: black;
+	padding-left: 157px;
+	margin-top: 5px;
+
+}
+
+.invoiceHolderLog3{
+	width: 100%;
+	margin-top: 50px;
+}
+.companyFormLog3{
+	height:auto;
+	margin: auto;
+}
+.divlog3{
+	position:absolute;
+	width: 345px;
+	height:796px;
+	background-color: #E5F1CE;
+	margin-left: 1070px;
+	margin-top: -49px;
+}
+.titlelog3{
+	font-size: 20px;
+	font-family: Calibri;
+	width: 345px;
+	text-align: center;
+	margin-top: 40px;
+}
+.title2log2{
+	width: 345px;
+	margin-top: 25px;
+	height: 5px;
+	background-color:1EBE39;
+	border: none;
+}
+.text1log3{
+	font-size: 14px;
+	font-family: calibri;
+	padding-left: 10px;
+	color:#006633;
+	font-weight: bold;
+	margin-top: -2px;
+	background-color:#E5F1CE;
+
+}
+.fullnameInputlog3{
+	position:absolute;
+	width: 400px;
+	height: 30px;
+	margin-left: -70px;
+	margin-top: 25px;
+	padding-left: 10px;
+}
+
+.Log3button{
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 70px;
+	color: yellow;
+	height: 35px;
+	width: 180px;
+	background-color: #99CC33;
+	text-shadow: .5px 1px 1px black;
+	font-weight:bold;
+	border-radius: 7px;
+	font-size: 15px;
+	font-family:calibri;
+}
+.text10log1{
+	background-color: #E5F1CE;
+}
+
+
+.text12log2{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	color: black;
+	margin-left: 200px;
+	margin-top: 5px;
+}
+.text2og3{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 37px;
+	background-color: #E5F1CE;
+}
+.text3log3{
+	position: absolute;
+	font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 120px;
+	margin-left: 215px;
+	color: black;
+}
+.inputLine{
+	position:absolute;
+	width: 2px;
+	height: 25px;
+	background-color: black;
+	border:none;
+	margin-top: 110px;
+	margin-left: 260px;
+}
+.text4log3{
+	position: absolute;
+	font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 116px;
+	margin-left: 270px;
+	color: black;
+}
+
+.buttonDownENTERPaymentEP{
+	position: absolute;
+	margin-top: 10px;
+	margin-left:515px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+.buttonDown2ENTERPaymentEP{
+	position: absolute;
+	margin-top: 10px;
+	margin-left:629px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.invoiceHolderNNBank{
+	width: 100%;
+	margin-top: 50px;
+}
+#newNNBank{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	
+	
+}
+.cnt-formNNBank{
+	width: 735px;
+	height: 308px;
+	margin: auto;
+	background-color: white;
+	
+}
+.cnt-headNNBank{
+	margin-top: -15px;
+	font-size: 30px;
+}
+
+.hrNNBank{
+	width: 733px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+	
+}
+.closeNNBank{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 695px;
+	
+}
+.taskANNBank{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 20px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tAccountNNBank{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 115px;
+	width: 200px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.descTNNBank{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 2px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.itemINNBank{
+	position: absolute;
+	margin-top:5px;
+	margin-left: 455px;
+	width: 250px;
+	height:100px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.rphNNBank{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 455px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.rphINNBank{
+	position: absolute;
+	margin-top: -8px;
+	margin-left: 30px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	padding-left: 5px;
+}
+.vatNNBank{
+	position: absolute;
+	margin-top:115px;
+	margin-left: 35px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-style: italic;
+}
+.vatSNNBank{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 570px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.saveBNNBank{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.saanBNNBank{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 12px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.taskANNBankName{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 20px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tAccountNNBankName2{
+	position: absolute;
+	margin-top: 38px;
+	margin-left: 115px;
+	width: 265px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.ActiveAccountNBank{
+	position: absolute;
+	margin-top: 117px;
+	margin-left: 20px;
+}
+.buttonNBankBelow{
+	background-color: #E5F1CE;
+	width: 735px;
+	height: 45px;
+	margin-top: 188px;
+}
+
+.taskANBankName{
+	position: absolute;
+	margin-top: 72px;
+	margin-left: 20px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tAccountNBankName2{
+	position: absolute;
+	margin-top: 72px;
+	margin-left: 115px;
+	width: 265px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+/*
+.invoiceHolderNTaxes{
+	width: 100%;
+	margin-top: 50px;
+}*/
+#newNTaxes{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	
+	
+}
+/*
+.cnt-formNTaxes{
+	width: 735px;
+	height: 308px;
+	margin: auto;
+	background-color: white;
+}*/
+.cnt-headNTaxes{
+	margin-top: -15px;
+	font-size: 30px;
+}
+
+.hrNTaxes{
+	width: 733px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+	
+}
+.closeNTaxes{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 695px;
+	
+}/*
+.taskANTaxes{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}*/
+/*
+.tAccountNTaxes{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 115px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+*/
+.descTNTaxes{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 70px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+/*
+.rphNTaxes{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 455px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}/*
+.rphINTaxes{
+	position: absolute;
+	margin-top: -8px;
+	margin-left: 30px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	padding-left: 5px;
+}*/
+.vatNTaxes{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 455px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-style: italic;
+}
+.vatSNTaxes{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 570px;
+	width: 130px;
+	height: 30px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+/*
+.saveBNTaxes{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 452px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}/*
+.saanBNTaxes{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 565px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 12px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}*/
+.taskANTaxesName{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+/*
+.tAccountNTaxesName2{
+	position: absolute;
+	margin-top: 38px;
+	margin-left: 115px;
+	width: 300px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}*/
+.ActiveAccountTax{
+	padding-left: 100px;
+}
+/*
+.buttonTaxes{
+	background-color: #E5F1CE;
+	width: 735px;
+	height: 45px;
+	margin-top: 190px;
+}*/
+.chartHolder{
+	width: 100%;
+	margin-top: 50px;
+}
+.chartHolderPayment{
+	width: 100%;
+	margin-top: 50px;
+}
+.chart-divPayment{
+	
+}
+.chart-form{
+	width: 915px;
+	height: 470px;
+	margin: auto;
+	background-color: #fff;
+}
+.chart-formPayment{
+	width: 915px;
+	height: 308px;
+	margin: auto;
+	background-color: #fff;
+}
+.chart-close{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 895px;
+}
+.chart-head{
+	margin-top: -15px;
+	font-size: 30px;
+	text-shadow:none;
+	font-style: italic;
+	font-family: Calibri;
+	margin-left: 20px;
+}
+.chartheadNewPayment{
+	margin-top: -15px;
+	font-size: 14px;
+	text-shadow:none;
+	font-style: italic;
+	font-family: Calibri;
+	margin-left: 20px;
+}
+.chart-box{
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	width: 435px;
+	height: 340px;
+	margin-left: 15px;
+	margin-top:-10;
+}
+.aText{
+	background-color: #fff;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 55px;
+	font-style: italic;
+	font-family: Calibri;
+	font-size: 13px;
+	width: 70px;
+	text-align: center;
+}
+.anText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 20px;
+	color: #003366;
+}
+.aNo{
+	position: absolute;
+	width: 130px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:140px;
+	margin-top: 23px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.atText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 20px;
+	color: #003366;
+}
+.aType{
+	position: absolute;
+	width: 190px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:140px;
+	margin-top: 56px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.accountCategoriesText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 95px;
+	margin-left: 20px;
+	color: #003366;
+}
+.accountCategoriesType{
+	position: absolute;
+	width: 190px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:140px;
+	margin-top: 89px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.aName{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 127px;
+	margin-left: 20px;
+	color: #003366;
+	
+}
+.aNameInput{
+	position: absolute;
+	width: 280px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:140px;
+	margin-top: 122px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.descText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 168px;
+	margin-left: 20px;
+	color: #003366;
+}
+.descInput{
+	position: absolute;
+	width:280px;
+	height: 87px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:140px;
+	margin-top: 155px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.saBox{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 20px;
+	color: #003366;
+}
+.saText{
+	position: absolute;
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 40px;
+	color: #003366;
+}
+.InclusiveOfVatChartcheck{
+	position: absolute;
+	margin-top: 1px;
+	margin-left:-15px;
+	background-color: gray;
+	border-radius: 5px;
+	border-color: solid 1px #C8C8C8;
+	color: #003366;
+	
+}
+.saSelect{
+	position: absolute;
+	width: 177px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:140px;
+	margin-top: 247px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.vatText{
+	position: absolute;
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 20px;
+	color: #003366;
+}
+.vatSelect{
+	position: absolute;
+	width: 130px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:55px;
+	margin-top: 279px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.chart-box2{
+	position: absolute;
+	border: 1px solid #C8C8C8;
+	width: 435px;
+	height: 340px;
+	margin-left: 460px;
+	margin-top:-10;
+}
+.bText{
+	background-color: #fff;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 55px;
+	font-style: italic;
+	font-family: Calibri;
+	font-size: 13px;
+	width: 70px;
+	text-align: center;
+}
+.openB{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 20px;
+	color: #003366;
+}
+.oBal{
+	position: absolute;
+	width: 130px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:120px;
+	margin-top: 23px;
+	font-size: 12px;
+	font-family: Calibri;
+}
+.asText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 253px;
+	color: #003366;
+}
+.ao{
+	position: absolute;
+	width: 130px;
+	height: 27px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:290px;
+	margin-top: 23px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.noteText{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 59px;
+	margin-left: 20px;
+	color: #003366;
+}
+.noteInput{
+	position: absolute;
+	width:355px;
+	height: 87px;
+	border: 1px solid #C8C8C8;
+	background-color: white;
+	margin-left:65px;
+	margin-top: 57px;
+	font-size: 12px;
+	font-family: Calibri;
+	text-align: right;
+}
+.aBox{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 20px;
+	color: #003366;
+}
+.aaInput{
+	font-family: Calibri;
+	font-size: 12px;
+	position: absolute;
+	margin-top: 148px;
+	margin-left: 35px;
+	color: #003366;
+	
+}
+.chartSave{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 645px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.chartAddSave{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 755px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.div-saveAdd{
+	position: absolute;
+	width: 915px;
+	height: 48px;
+	background-color: #E5F1CE;
+	border: none;
+	margin-top: 345px;
+}
+.div-saveAddPayment{
+	width: 915px;
+	height: 48px;
+	background-color: #E5F1CE;
+	border: none;
+	margin-top: 50px;
+}
+.invoiceHolderNNUser{
+	width: 100%;
+	margin-top: 50px;
+}
+#newNNUser{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.cnt-formNNUser{
+	width: 900px;
+	height: 1052px;
+	margin: auto;
+	background-color: white;
+}
+.cnt-headNNUser{
+	margin-top: -15px;
+	font-size: 30px;
+}
+
+
+.closeNNUser{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 860px;
+	
+}
+.UserANNBank{
+	position: absolute;
+	margin-top: -22px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.PermisionUserNo{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 30px;
+	width:150px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.saveBNNUserP{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 620px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.saanBNNUserP{
+	position: absolute;
+	margin-top: 7px;
+	margin-left:730px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 12px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+
+.tableUser{
+	border: solid 1px  #E0E0E0;
+	width: 850px;
+	height: 170px;
+	margin-top: -10px;
+	margin-left: 25px;
+}
+.buttonNBank{
+	background-color: #E5F1CE;
+	width: 900px;
+	height: 45px;
+	margin-top: 20px;
+}
+.AccountsUserPermission{
+	position: absolute;
+	width: 65px;
+	text-align: center;
+	margin-top:-30px;
+	font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	margin-left: 50px;
+	font-style: italic;
+}
+.taskANNUserP{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 10px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PermisionUserNo{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 45px;
+	width:150px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.PermisionName{
+	position: absolute;
+	margin-top: -21px;
+	margin-left: 11px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PermisionName2{
+	position: absolute;
+	margin-top: -5px;
+	margin-left:60px;
+	width:280px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.PermisionEmail{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 11px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PermisionEmail2{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 20px;
+	width:280px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.PermisionPhoneNoTxt{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 11px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PermisionPhoneNoTxt2{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 40px;
+	width:280px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.PermisionUserName{
+	position: absolute;
+	margin-top: -155px;
+	margin-left: 11px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PermisionUserName2{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 36px;
+	width:280px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.TableUser2{
+	margin-left: 465px;
+}
+.PermisionUserPassword{
+	position: absolute;
+	margin-top: -122px;
+	margin-left: 11px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PermisionUserPassword2{
+	position: absolute;
+	margin-top: -5px;
+	margin-left: 45px;
+	width:280px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+
+.PermisionUserCheck{
+	position: absolute;
+	margin-top: -97px;
+	margin-left: 18px;
+	color: #003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+.vatNNUserPermission{
+	position: absolute;
+	margin-left: 44px;
+	width:280px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.formUserPermissionTable{
+	border: solid 1px  #E0E0E0;
+	width: 850px;
+	height: 730px;
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.PermissionFormUser{
+	position: absolute;
+	width: 75px;
+	text-align: center;
+	margin-top:-11px;
+	font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	margin-left: 50px;
+	font-style: italic;
+	background-color:white;
+}
+.UserPermissionTDTitle{
+	width: 840px;
+	height: 25px;
+	background-color: #E1F1CE;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top:10px;
+	margin-left: -1px;
+	padding-left:10px;
+	padding-top: 7px;
+}
+.UserPermissionTDInvoices{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	border: none;
+	margin-top:50px;
+	margin-left: 35px;
+	padding-left:10px;
+	padding-top: 7px;
+	font-weight: bold;
+	
+}
+.UserPermissionTDInvoices2{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionTDInvoices1{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 70px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;
+	
+}
+.UserPermissionTDInvoices3{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.check1UserPermission{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 55px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.check1UserPermission2{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 75px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText1{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 90px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck1{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 95px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText2{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 110px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck2{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv1{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 115px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText3{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 130px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck3{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv2{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 135px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText4{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 150px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck4{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv3{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 155px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionTDTitle2{
+	width: 840px;
+	height: 25px;
+	background-color: #E1F1CE;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 180px;
+	margin-left: -1px;
+	padding-left:10px;
+	padding-top: 7px;
+}
+
+.UserPermissionText5{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 240px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck5{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv4{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 245px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionTDExpenses{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	border: none;
+	margin-top: 220px;
+	margin-left: 35px;
+	padding-left:10px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+.UserPermissionDiv5{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 225px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText6{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 260px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck6{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv6{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 265px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionTDTitle3{
+	width: 840px;
+	height: 25px;
+	background-color: #E1F1CE;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top:290px;
+	margin-left: -1px;
+	padding-left:10px;
+	padding-top: 7px;
+}
+.UserPermissionTDTimeTracking{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	border: none;
+	margin-top: 330px;
+	margin-left: 35px;
+	padding-left:10px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+.UserPermissionDiv7{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 335px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText7{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 350px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck7{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv7a{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 355px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText8{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 370px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck8{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv8{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 375px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText9{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 390px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck9{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv9{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 395px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionTDTitle4{
+	width: 840px;
+	height: 25px;
+	background-color: #E1F1CE;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top:420px;
+	margin-left: -1px;
+	padding-left:10px;
+	padding-top: 7px;
+}
+.UserPermissionTDSetting{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	border: none;
+	margin-top:460px;
+	margin-left: 35px;
+	padding-left:10px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+.UserPermissionDiv7b{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 465px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText10{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 480px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck10{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv10{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 485px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText11{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 500px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck11{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv11{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 505px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText12{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 520px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck12{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv12{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 525px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText13{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 540px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck13{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv13{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 545px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText14{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 560px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck14{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv14{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 565px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionText15{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 580px;
+	margin-left: 55px;
+	padding-left:10px;
+	padding-top: 7px;	
+}
+.UserPermissionCheck15{
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 1px;
+	box-shadow: 1px 1px 1px black;
+}
+.UserPermissionDiv15{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 585px;
+	margin-left: 220px;
+	font-weight: none;
+}
+.UserPermissionTDTitle5{
+	width: 840px;
+	height: 25px;
+	background-color: #E1F1CE;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	font-weight: bold;
+	border: none;
+	border: none;
+	margin-top: 610px;
+	margin-left: -1px;
+	padding-left:10px;
+	padding-top: 7px;
+}
+.UserPermissionTDReport{
+	width: 840px;
+	height: 25px;
+	position: absolute;
+	font-size: 13px;
+	font-family: calibri;font-size: 14px;
+	font-family: calibri;
+	border: none;
+	margin-top:650px;
+	margin-left: 35px;
+	padding-left:10px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+.UserPermissionDiv16{
+	position: absolute;
+	font-size: 12px;
+	font-family: calibri;
+	font-size: 12px;
+	font-family: calibri;
+	border: none;
+	margin-top: 655px;
+	margin-left: 220px;
+	font-weight: none;
+}
+
+.divPTSBelow{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 67px;
+}
+
+.projectHolder{
+	width: 100%;
+	margin-top: 50px;
+}
+.project-form{
+	width: 793px;
+	height: 290px;
+	margin: auto;
+	background-color: #fff;
+}
+.proj-close{
+	background-color: gray;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 25px;
+	margin-left: 772px;
+}
+.np{
+	margin-top: -15px;
+	font-size: 30px;
+	text-shadow:none;
+	font-style: italic;
+	font-family: Calibri;
+	margin-left: 20px;
+}
+.hr-proj{
+	width: 791px;
+	border: 2px solid gray;
+	margin-left: -1px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+}
+.proj-text{
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 20px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.proj-no{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 125px;
+	width: 170px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.projN-text{
+	position: absolute;
+	margin-top: 49px;
+	margin-left: 20px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.projN-input{
+	position: absolute;
+	margin-top: 47px;
+	margin-left: 125px;
+	width: 310px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.clientN-text{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 20px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.clientN-input{
+	position: absolute;
+	margin-top: 79px;
+	margin-left: 125px;
+	width: 310px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+}
+.projA-cbox{
+	position: absolute;
+	margin-top:1px;
+	margin-left:-20px;
+	color: #000;
+}
+.projA-text2{
+	position: absolute;
+	margin-top: 114px;
+	margin-left: 40px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.note-text{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 470px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.note-input23{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 515px;
+	width: 260px;
+	height: 87px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.proj-buttons{
+	background-color: #E5F1CE;
+	width: 793px;
+	height: 45px;
+	margin-top: 180px;
+}
+.save-proj{
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 522px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.saan-proj{
+	position: absolute;
+	margin-top: 7px;
+	margin-left:635px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: calibri;
+	font-style: bold;
+	font-size: 12px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+
+
+
+.invoiceHolderNewVendor{
+	width: 100%;
+	margin-top: 108px;
+}
+.nifNewVendor{
+	width: 742px;
+	margin: auto;
+	background-color:white;
+	padding-right:2px;
+}
+#newNewVendor{
+	/* font-family: verdana;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none; */
+}
+.closeNewVendor{
+	color: white;
+	border: none;
+	border-radius: 2px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 16px;
+	height: 18px;
+	margin-left: 683px;
+	width: 22px;
+	margin-top: 12px;
+}
+	
+.hrClassNNewVendor{
+	width: 733px;
+	border: 2px solid gray;
+	margin-left: -21px;
+	margin-top: -20px;
+	border-radius: 3px;
+	height: 4px;
+	background-color: gray;
+}
+
+.niNewVendor{
+	margin-top:10px;
+}
+.divSaveBBelowNewVendor{
+	height: 34px;
+	padding: 10px;
+	
+}
+.saveBNewVendor{
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: verdana;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	border: none;
+    cursor: pointer;
+}
+.saanBNewVendor{
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: verdana;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+    cursor: pointer;
+	border: none;
+	cursor: pointer;
+}
+
+.iAccount{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 115px;
+	width: 150px;
+	height: 27px;
+	background-color: white;
+	border-color: solid 1px #C8C8C8;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.newVendorNoTxt{
+	font-family: verdana;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.VendorInput{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: -5px;
+	height: 27px;
+	width: 170px;
+}
+.NewInputVendor{
+	 font-family: verdana;
+	font-size: 12px;
+	height: 27px;
+	width: 170px;
+	margin-left: 10px;
+	padding:5px;
+	margin-left:24px;
+}
+.Vendorinputtext{
+	padding-left: 40px;
+	padding-top: 10px;
+}
+.newVendorNameTxt{
+	font-family: verdana;
+	font-size: 12px;
+	padding-left: 15px;
+	margin-top:-36px;
+	margin-left:-15px;
+}
+.newVendorNameInput{
+	font-family: verdana;
+	font-size: 12px;
+	margin-top: 5px;
+	height: 27px;
+	width: 248px;
+	margin-left: 24px;
+	padding:5px;
+}
+
+.newVendorAddressTxt{
+	position: absolute;
+	margin-left: 10px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 65px;
+}
+.newVendorAddressSelect{
+	position: absolute;
+	margin-left: 60px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: -5px;
+	height: 27px;
+	width: 280px;
+}
+.newVendorEmailAddressTxt{
+	position: absolute;
+	margin-left: 10px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 95px;
+}
+.newVendorEmailInput{
+	position: absolute;
+	margin-left: 22px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: -5px;
+	height: 27px;
+	width: 280px;
+}
+.newVendorNoteTxt{
+	position: absolute;
+	margin-left: 10px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 125px;
+}
+.newVendorNameInput2{
+	font-family: verdana;
+	font-size: 12px;
+	height:80px;
+	width: 248px;
+	margin-top: 5px;
+	margin-left: 24px;
+	padding:5px;
+	max-height:80px;
+	max-width: 248px;
+}
+.newVendorNamecheck{
+	padding-left: 15px;
+	
+}
+.newVendorAccount{
+	font-family: verdana;
+	font-size: 12px;
+}
+.newVendorcheck{
+	font-family: Calibri;
+	font-size: 12px;
+	height:80px;
+}
+.newVendorPhoneTxt{
+	font-family: Calibri;
+	font-size: 12px;
+	float: right;
+}
+.newVendorPhoneInput{
+	font-family: verdana;
+	font-size: 12px;
+	margin-top: 5px;
+	height: 27px;
+	width: 170px;
+	padding:5px;
+	margin-left:23px;
+}
+.tblNewVendor td{
+	padding:1px;
+}
+.tblNewVendor{
+	text-align: left;
+	padding: 5px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-weight: normal;
+	padding: 0px 2px 0px 2px;
+	color: black;
+	margin-top: -319px;
+	float:right;
+	margin-right:23px;
+}
+.txttbl2text{
+	font-family: verdana;
+	font-size: 12px;
+	padding-right: 30px;
+}
+.txttbl2text2{
+	font-family: verdana;
+	font-size: 12px;
+	padding-right: 15px;
+}
+.txttbl2text3{
+	padding-right: 60px;
+}
+.txttbl2Input{
+	font-family: Calibri;
+	font-size: 12px;
+	padding-right: 25px;
+}
+.checkVendor{
+	font-family: verdana;
+	font-size: 12px;
+	font-style: italic;
+	margin-left: -79px;
+}
+.newVendorFaxTxt{
+	position: absolute;
+	margin-left: 430px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 22px;
+}
+.newVendorFaxInput{
+	position: absolute;
+	margin-left: 61px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: -5px;
+	height: 27px;
+	width: 170px;
+}
+.newVendorVatTxt1{
+	position: absolute;
+	margin-left: 430px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 53px;
+}
+.newVendorVatInput{
+	position: absolute;
+	margin-left: 80px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: -5px;
+	height: 27px;
+	width: 170px;
+}
+.newVendorcheckTxt1{
+	position: absolute;
+	margin-left: 450px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 85px;
+	font-style: italic;
+}
+.newVendorcheck1{
+	position: absolute;
+	margin-left: -97px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 1px;
+	width: 170px;
+}
+.newVendorCurrencyTxt{
+	position: absolute;
+	margin-left: 430px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: 115px;
+}
+.newVendorCurrencyInput{
+	position: absolute;
+	margin-left: 54px;
+	font-family: Calibri;
+	font-size: 12px;
+	margin-top: -5px;
+	height: 27px;
+	width: 170px;
+}
+.divBelowPaymentType{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 71px;
+}
+.divBelowProj{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 137px;
+}
+
+.divBelowSales{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 200px;
+}
+.divBelowTerms{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 182px;
+}
+.divBelowVendorSave{
+	width: 735px;
+	height: 50px;
+	background-color: #E1F1CE;
+	margin-top: 139px;
+}
+.vendorSave{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 437px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.vendorSaveAdd{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 550px;
+	width: 160px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.NVendorInput{
+	padding-left: 25px;
+}
+
+
+
+
+
+.setupHolder{
+	width: 100%;
+	margin-top: 15px;
+}
+.setup-form{
+	width:750px;
+	height: 640px;
+	margin: auto;
+}
+#setup-div{
+	width: 750px;
+	margin: 0 auto;
+	height: 40px;
+	background-color: #1EBE39;
+	padding-top: 12px;
+	
+}
+.setup-head{
+	font-size: 20px;
+	font-family: Calibri;
+	text-align: center;
+	margin-top: 2px;
+	color: yellow;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #FF0000;
+}
+.inside-form{
+	background-color: #E1F5CE;
+	width: 710px;
+	height: 555px;
+	margin-top: 15px;
+	margin-left:20px;
+}
+.cname-text{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyN-input{
+	position: absolute;
+	margin-top: 38px;
+	margin-left: 160px;
+	width: 490px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.asterisk{
+	color: red;
+	position: absolute;
+	margin-top: 37px;
+	margin-left: 138px;
+}
+.cadd-text{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.companyA-input{
+	position: absolute;
+	margin-top: 71px;
+	margin-left: 160px;
+	width: 490px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.tinNo-text{
+	position: absolute;
+	margin-top: 102px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.tinNo-input{
+	position: absolute;
+	margin-top: 104px;
+	margin-left: 160px;
+	width: 190px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.eAdd-text{
+	position: absolute;
+	margin-top: 134px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.eAdd-input{
+	position: absolute;
+	margin-top: 137px;
+	margin-left: 160px;
+	width: 490px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.pNo-text{
+	position: absolute;
+	margin-top: 164px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.pNo-input{
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 130px;
+	width: 225px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.fNo-text{
+	position: absolute;
+	margin-top: 164px;
+	margin-left: 363px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.fNo-input{
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 425px;
+	width: 225px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.city-text{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.city-input{
+	position: absolute;
+	margin-top: 203px;
+	margin-left: 130px;
+	width: 225px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.provi-text{
+	position: absolute;
+	margin-top: 193px;
+	margin-left: 363px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.provi-input{
+	position: absolute;
+	margin-top: 203px;
+	margin-left: 425px;
+	width: 225px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.pc-text{
+	position: absolute;
+	margin-top: 222px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.pc-input{
+	position: absolute;
+	margin-top: 236px;
+	margin-left: 130px;
+	width: 110px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.country-text{
+	position: absolute;
+	margin-top: 255px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.country-input{
+	position: absolute;
+	margin-top: 269px;
+	margin-left: 130px;
+	width: 225px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.btype-text{
+	position: absolute;
+	margin-top: 286px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.btype-input{
+	position: absolute;
+	margin-top: 302px;
+	margin-left: 160px;
+	width:490px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.asterisk2{
+	color: red;
+	position: absolute;
+	margin-top: 280px;
+	margin-left: 133px;
+}
+.currency-text{
+	position: absolute;
+	margin-top: 317px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.currency-input{
+	position: absolute;
+	margin-top: 335px;
+	margin-left: 160px;
+	width:100px;
+	height: 27px;
+	background-color: white;
+	font-family: Calibri;
+	font-size: 12px;
+	border: solid 1px #C8C8C8;
+	
+}
+.asterisk3{
+	color: red;
+	position: absolute;
+	margin-top: 312px;
+	margin-left: 100px;
+}
+.uplogo-text{
+	position: absolute;
+	margin-top: 348px;
+	margin-left: 50px;
+	color: #000;
+	font-family: Calibri;
+	font-size: 12px;
+}
+.save-project{
+	margin-top:7px;
+	margin-left: 12px;
+	background-image:url('/unlibooks/public/images/proceed-button.png');
+	background-repeat:no-repeat;
+	width: 121px;
+	height: 33px;
+	border-radius:2px;	
+	border: none;
+	cursor:pointer
+}
+.browse-logo{
+	position: absolute;
+	margin-top: 375px;
+	margin-left: 50px;
+	cursor: pointer;
+	background-image:url('/unlibooks/public/images/browse2.png');
+	height: 100px;
+	width: 180px;
+	background-repeat: no-repeat;
+}
+.div-proj{
+	width: 708px;
+	height: 45px;
+	border: none;
+	background-color:lightgreen;
+	position: absolute;
+	margin-top: -46px;
+	margin-left: 20px;
+}
+.InclusiveOfVatText{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 455px;
+	color:#003366;
+	font-family: Calibri;
+	font-size: 12px;
+	font-style: italic;
+}
+.cnitablePayment{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+	font-family: Calibri;
+	font-size:12px;
+}
+.headinvoicePayment{
+	font-family: Calibri;
+	
+}
+.collectionthPayment{
+	text-align: left;
+	padding-left:5px;
+}
+.collectionth2Payment{
+	text-align: right;
+	padding-right:50px;
+}
+.cboxPayment{
+	text-align: center;
+	border-bottom: 1px solid #C8C8C8;
+	background-color: white;
+}
+.paynocolPayment{
+	color: blue;
+	border:none;
+	margin-top: 200px;
+	text-align: left;
+	margin-left: 5px;
+	background-color:#fff;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.datecolPayment{
+/*	text-align: center;
+        padding-left: 20px;*/
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: left;
+	padding-left: 5px;
+	
+}
+.tamtcolPayment{
+    padding-right:50px;
+	text-align: right;
+	border-collapse: collapse;
+	border-bottom: 1px solid #C8C8C8;
+}
+.chartSavePayment{
+	margin-top: 10px;
+	margin-left: 645px;
+	width: 105px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.chartAddSavePayment{
+	margin-top: 10px;
+	margin-left: 755px;
+	width: 150px;
+	height:31px;
+	border-radius: 5px;
+	font-family: Cambria;
+	font-style: bold;
+	font-size: 13px;
+	color: white;
+	background-color:#008B8B;
+	border: none;
+	cursor: pointer;
+}
+.vendorPop td{
+	padding:1px;
+}

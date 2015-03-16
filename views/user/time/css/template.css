@@ -1,0 +1,1064 @@
+ .TaskHolder{
+	width: 100%;
+	/* margin-top: 209px; */
+	background-color: white;
+}
+#newTask{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	text-shadow: 1px 1px 5px gray;
+}
+.textHeadTasks{
+	/* margin-top: -124px; */
+	font-size: 30px;
+	text-shadow: none;
+	padding-top: 25px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+
+.createNewTask{
+	margin-left: 760px;
+	margin-top: -75px;
+	width: 200px;
+	height: 47px;
+	border: none;
+	background-image: url('/unlibooks/public/images/create new service.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.centerTasks {
+	right: 50%;
+	margin-left: 5px;
+	width: 990px;
+	height: 45px;
+	margin-top: 5px;
+	background-color: E5F1CE;
+	border-radius:5px 5px 0px 0px;
+	color: black;
+	font-size: 13px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.buttonTasks{
+	background-color:#5e5353;
+	width: 120px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	margin-left: 5px;
+	border: none;
+	color: whitesmoke;
+}
+.searchTasks{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px;
+	color: black;
+	font-weight: bold;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.searchindexTasks{
+	margin-left: -4px;
+	margin-top: 6px;
+	width: 330px;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	/* background-image:url('/unlibooks/public/images/imagesearch1.png'); */
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size: 13px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	padding-left: 7px;
+	text-align: left;
+	padding-right: 33px;
+}
+.deleteTasks{
+	background-color:#5e5353;
+	width: 100px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: calibri;
+	margin-top:5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.deleteTasks2{
+	background-color:#5e5353;
+	width: 100px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:5px;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+.SearchTasks{
+	background-color:#5E5353;
+	width: 25px;
+	height: 26px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	margin-top:5px;
+	cursor: pointer;
+	color: black;
+	font-weight: normal;
+	color: whitesmoke;
+	border: none;
+	background-image:url('/unlibooks/public/images/imagesearch1.png');
+}
+.sendTasks{
+	background-color:#C8C8C8 ;
+	width: 115px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}	
+
+.byTasks{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.inumberTasks{
+	background-color:#5e5353;
+	margin-left: 300px;
+	width: 141px;
+	height: 33px;
+	border:none;
+	/* border-radius: 5px 5px 0px 0px; */
+	font-size:12px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	border: none;
+	color: whitesmoke;
+}
+.cnitableTasks{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+	font-family: Calibri;
+	font-size:12px;
+}
+
+th {
+	background-color: #55C768;
+	color: white;
+	font-size: 13px;
+	font-family: Calibri;
+	text-shadow: 0px 4px 1px 0px black;
+	padding: 7px;
+}
+.tableTasks{
+	background-color:white;
+	border-bottom: solid 1px #C8C8C8;
+	font-size:12px;
+}
+.cboxTasks{
+	text-align: center;
+	border: none;
+	height: 25px;
+}
+.itemNoTasks{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 200px;
+	padding-left: 7px;
+	text-align: left;
+}
+.itemDescTasks{
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	padding-left: 7px;
+}
+.dateCreatedTasks{
+	text-align: left;
+	background-color:white;
+	border-collapse: collapse;
+	padding-left: 7px;
+}
+.unitCostTasks{
+	text-align:left; 
+	padding-left: 7px;
+}
+
+.thHeadTasks{
+	text-align: left;
+	width: 150px;
+	
+	}
+	
+.hrTasks{
+	width: 985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -11px;
+}
+.checkTasks{
+	width: 10px;
+}
+.invoiceHolder{
+	width: 100%;
+	margin-top: 50px;
+}
+.invoiceHolderItem{
+	width: 100%;
+	margin-top: 50px;
+}
+.new{
+	font-family: Calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.headText{
+	margin-top: -50px;
+	font-size: 30px;
+}
+.headTextTime{
+	margin-top: 84px;
+	font-size: 30px;
+	padding-top: 25px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.hr-time{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -8px;
+}
+.time-form{
+	margin-top: 5px;
+	width: 540px;
+	height: 315px;
+	border:1px solid gray;
+	background-color:#E5F1CE;
+	margin-left: 15px;
+	border-radius: 4px 4px 2px 2px;
+	border: none;
+	padding-top:20px;
+}
+
+.hrClass2{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -25px;
+}
+
+
+.yre-form{
+	width: 425px;
+	height: 333px;
+	margin-left: 559px;
+	margin-top: -349px;
+	background-color:#E5F1CE;
+	border-radius: 4px 4px 2px 2px;
+	border: none;
+}
+.yre{
+	width:425px;
+	height: 40px;
+	border: none;
+	margin-top: -280px;
+	background-color:#C2E184;
+	border-radius: 4px 4px 1px 1px;
+}
+.yre-text{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+	padding-top:10px;
+}
+.date-link{
+	width:425px;
+	height: 60px;
+	border: none;
+	margin-top: -10px;
+	font-family: Calibri;
+	font-size: 12px;
+	
+}
+.enter{
+	margin-left: 10px;
+	margin-top: 20px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+}
+.date1{
+	color: blue;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.a-service{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+	margin-left: 77px;
+	margin-top: -25px;
+}
+.date-link1{
+	width:425px;
+	height: 40px;
+	border: none;
+	margin-top: -27px;
+	font-family: Calibri;
+	font-size: 12px;
+	background-color:#ACC9EE;
+}
+.enter1{
+	margin-left: 10px;
+	margin-top: 6px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+	padding-top: 3px;
+}
+.date{
+	color: blue;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-top: -10px;
+	cursor: pointer;
+}
+.a-service1{
+	font-family: Calibri;
+	font-size: 12px;
+	margin-left: 79px;
+	margin-top: -27px;
+}
+.cal-form{
+	width: 970px;
+	height:300px;
+	background-color:#E5F1CE;
+	border-radius: 4px 4px 2px 2px;
+	border: none;
+	margin-left: 15px;
+	margin-top: -12px;
+}
+.day{
+	border-collapse: collapse;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	border: none;
+}
+.cal-select{
+	font-family: Calibri;
+	text-align: center;
+	margin-top: 47px;
+	margin-left: 30px;
+	font-size: 12px;
+	border-shadow:1px solid #C2E184;
+	width: 270px;
+}
+.white-bg{
+	background-color: white;
+	color: black;
+	
+	
+}
+.blue-bg{
+	background-color: #ACC9EE;
+	color: black;
+}
+.green-bg{
+	background-color: #C2E184;
+	color: black;
+}
+.may-2014{
+	position: absolute;
+	color:blue;
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 135px;
+	margin-top: 17px;
+}
+.arrow-left{
+	position: absolute;
+	border:none;
+	background-color:#E5F1CE;
+	margin-top:249px;
+	margin-left:-200px;
+	color: blue;
+	cursor: pointer;
+}
+.month{
+	position: absolute;
+	color: blue;
+	border: none;
+	background-color:#E5F1CE;
+	margin-top:249px;
+	margin-left:-170px;
+	width: 100px;
+}
+.arrow-right{
+	position: absolute;
+	border:none;
+	background-color:#E5F1CE;
+	color: blue;
+	margin-top:249px;
+	margin-left:-95px;
+	cursor: pointer;
+}
+.white-bg:hover{
+	text-decoration: ;
+}
+.tsd{
+	width: 150px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image:url('/unlibooks/public/images/backgroundbutton3.png');
+	background-color: #CFFCCE;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.tsd:hover{
+	background:white;
+	color: #00B200;
+	box-shadow: 1px 1px 1px 1px gray;
+}
+.ats{
+	width: 150px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 15px;
+	background-image:url('/unlibooks/public/images/backgroundbutton3.png');
+	background-repeat: no-repeat;
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.ats:hover{
+	background:white;
+	color: #00B200;
+	box-shadow: 1px 1px 1px 1px gray;
+}
+	
+.hr2{
+	width:644px;
+	border: 2px solid gray;
+	margin-left: 315px;
+	margin-top: 7px;
+}
+.button-holder{
+	margin-top: 5px;
+	width: 640px;
+	height: 41px;
+	margin-left:317px;
+	background-color:#DAE3C8;
+	border-radius:5px 5px 0px 0px;
+}
+.edit{
+	margin-left: 9px;
+	background-color: #5e5353;
+	width: 60px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top: 6px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.delete{
+	background-color:#5e5353;
+	width: 60px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top: 3px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.cancel{
+	background-color:#5e5353;
+	width: 126px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:3px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.generate{
+	background-color:#5e5353;
+	width: 120px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 0px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:3px;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.time-table{
+	margin-top: 5px;
+	margin-left: 317px;
+	border-collapse: collapse;
+	width: 640px;
+	height: 85px;
+}
+.time-table th{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 13px;
+	background-color:#55C768;
+	text-align:left;
+}
+.time-table td{
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+	text-align:left;
+}
+.head{
+	background-color:#55C768;
+	font-size: 13px;
+	color: white;
+	text-align: left;
+}
+.head2{
+	background-color:#55C768;
+	font-size: 13px;
+	color: white;
+	text-align: left;
+}
+
+.row1{
+	background-color: #F0F0F0;
+}
+.row2{
+	border-bottom: 1px solid #C8C8C8;
+	padding-left: 10px;
+}
+.check{
+	padding-left: 6px;
+	padding-right:6px;
+}
+
+.service{
+	text-align: left;
+	padding-left: 7px;
+	padding-right:10px;
+}
+.proj{
+	text-align: left;
+	padding-left: 7px;
+	padding-right:6px;
+}
+.oras{
+	text-align: left;
+	padding-left: 7px;
+	padding-right:10px;
+}
+.stat{
+	text-align: left;
+	padding-left: 7px;
+}
+#tDTasks{
+}
+.date-txt{
+	margin-left:30px;
+	margin-top: 25px;
+	font-family:Calibri;
+	font-size: 12px;
+}
+.date-input{
+	margin-left:0px;
+	margin-top: 0px;
+	font-family:verdana;
+	font-size: 12px;
+	width: 160px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	padding:5px;
+}
+.projName-txt{
+	margin-left:30px;
+	margin-top: 55px;
+	font-family:Calibri;
+	font-size: 12px;
+}
+.projName-input{
+	/*position: absolute;
+	margin-left:110px;
+	margin-top: 51px;*/
+	font-family:verdana;
+	font-size: 12px;
+	width: 230px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	margin-top: 5px;
+	padding:5px;
+}
+.clientName-txt{
+	/*position: absolute;
+	margin-left:30px;
+	margin-top: 85px;*/
+	font-family:Calibri;
+	font-size: 12px;
+}
+.clientName-input{
+	/*position: absolute;
+	margin-left:110px;
+	margin-top: 81px;*/
+	font-family:verdana;
+	font-size: 12px;
+	width: 230px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	margin-top: 5px;
+	padding:5px;
+}
+.task{
+	/*position: absolute;
+	margin-left:30px;
+	margin-top: 115px;*/
+	font-family:Calibri;
+	font-size: 12px;
+}
+.task-select{
+	/*position: absolute;
+	margin-left:110px;
+	margin-top: 111px;*/
+	font-family:verdana;
+	font-size: 12px;
+	width: 230px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	margin-top: 5px;
+	padding:5px;
+}
+.s-time{
+	/*position: absolute;
+	margin-left:30px;
+	margin-top:147px;*/
+	font-family:Calibri;
+	font-size: 12px;
+}
+.st-input{
+	/*position: absolute;
+	margin-left:110px;
+	margin-top: 142px;*/
+	font-family:Calibri;
+	font-size: 12px;
+	width: 92px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	margin-top:5px;
+	margin-left:20px;
+}
+.e-time{
+	/*position: absolute;
+	margin-left:207px;
+	margin-top: 147px;*/
+	font-family:Calibri;
+	font-size: 12px;
+}
+.et-input{
+	/*position: absolute;
+	margin-left:270px;
+	margin-top: 142px;*/
+	font-family:Calibri;
+	font-size: 12px;
+	width: 92px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	margin-top:5px;
+}
+.hrs{
+	/*position: absolute;
+	margin-left:370px;
+	margin-top: 147px;*/
+	font-family:Calibri;
+	font-size: 12px;
+}
+.hrs-input{
+	/*position: absolute;
+	margin-left:415px;
+	margin-top: 142px;*/
+	font-family:Calibri;
+	font-size: 12px;
+	width: 92px;
+	height:27px;
+	border: 1px solid #C8C8C8;
+	margin-top:5px;
+}
+.note{
+	/*position: absolute;
+	margin-left:30px;
+	margin-top: 175px;*/
+	font-family:Calibri;
+	font-size: 12px;
+}
+.note-input{
+	font-family: Calibri;
+	font-size: 12px;
+	width: 230px;
+	height: 90px;
+	border: 1px solid #C8C8C8;
+	max-width: 230px;
+	max-height: 90px;
+	margin-top: 5px;
+	margin-left: 20px;
+	
+}
+.save{
+	margin-left:30px;
+	margin-top:11px;
+	font-family:Calibri;
+	font-size: 12px;
+	font-weight: bold;
+	width: 55px;
+	height:30px;
+	border: none;
+	color: white;
+	background-color: #6B8E23;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+
+
+
+.ProjectHolder{
+	width: 100%;
+	background-color: white;
+}
+#newProject{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.textHeadProject{
+	margin-top: -86px;
+	font-size: 30px;
+}
+.createNewIProject{
+	margin-left: 760px;
+	margin-top: -70px;
+	width: 200px;
+	height: 45px;
+	border: none;
+	background-image:url('/unlibooks/public/images/create new item.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.cnitableProject{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+	font-family: Calibri;
+	font-size:13px;
+	color: white;
+}
+
+.buttonImpProject{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.searchProject{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px;
+
+}
+.searchindexProject{
+	margin-left: 15px;
+	margin-top: 6px;
+	width: 38%;
+	height: 33px;
+	border: 1px solid #C0C0C0;
+	text-align: left;
+	background-image:url('/unlibooks/public/images/imagesearch1.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left: 22px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size:12px;
+}
+.addProject{
+	background-color:#5E5353 ;
+	width: 90px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border:none;
+}
+.deleteProject{
+	background-color:#5E5353 ;
+	width: 90px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:5px;
+	cursor: pointer;
+	color: whitesmoke;
+	border:none;
+}	
+.transactionProject{
+	background-color:#C8C8C8 ;
+	width: 100px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.ImportProject{
+	background-color:#5e5353;
+	width: 106px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	margin-top:5px;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+.byProject{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.inumberProject{
+	background-color:#5E5353;
+	margin-left: 10px;
+	width: 129px;
+	height: 29px;
+	border:none;
+	border-radius: 5px 5px 0px 0px;
+	font-size:12px;
+	color: whitesmoke;
+	border: none;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.cnitableItemProject{
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 97%;
+	font-family: Calibri;
+}
+.headinvoiceProject{
+	font-family: Calibri;
+	background-color: #55C768;
+}
+.tableProject{
+	background-color:#fff;
+	border-bottom: solid 1px #C8C8C8;
+	font-size:12px;
+}
+.cboxProject{
+	text-align: center;
+	border: none;
+}
+.itemNoProject{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 200px;
+	padding-left: 8px;
+}
+.dateProject{
+	text-align: left;
+	border-collapse: collapse;
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+}
+.nameProject{
+	text-align: left;
+	border-collapse: collapse;
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+	
+}
+.codeProject{
+	text-align:left; 
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+}
+.AccountProject{
+	text-align: left;
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+}
+.textHeadProjectTime{
+	margin-top: 84px;
+	font-size: 30px;
+	padding-top: 23px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+
+.textHeadProject{
+	margin-top: -200px;
+	font-size: 30px;
+}
+
+.centerProject{
+	right: 50%;
+	margin-top: 5px;
+	width: 990px;
+	height: 45px;
+	margin-left: -15px;
+	background-color:#E5F1CE;
+	border-radius:5px 5px 0px 0px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-style: normal;
+}
+.buttonImpProject{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.searchindexItemProject{
+	margin-left: 15px;
+	margin-top: 6px;
+	width: 24%;
+	height: 30px;
+	border: 1px solid #C0C0C0;
+	text-align: center;
+	background-image:url('/unlibooks/public/images/search2.png');
+	background-repeat:no-repeat;
+	background-position:left;
+}
+.createExpenseProject{
+	background-color:#C8C8C8 ;
+	width: 115px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -4px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+
+.cnitableItemProject{
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 97%;
+	font-family: Calibri;
+}
+
+.cboxItemProject{
+	text-align: center;
+	border: none;
+}
+
+
+.dateCreatedProject{
+	text-align: left;
+	border-collapse: collapse;
+	padding-left: 7px;
+}
+
+.taxCodeProject{
+	text-align: left;
+	padding-left: 7px;
+}
+.thHeadProject{
+	text-align: left;
+	width: auto;
+}
+.checksProject{
+	text-align: center;
+	width: 50px;
+}
+.hrClass4{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: 5px;
+}
+.hrAllProject{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -8px;
+	
+}
+.invoiceHolderTime{
+	background-color: white;
+	padding-bottom: 200px;
+}

@@ -1,0 +1,344 @@
+
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1275px;
+	 height: 1650px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #page101701 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1275px;
+	 height: 1950px;
+	 z-index:1;
+} 
+
+ #p10sched11A1 
+{ 
+	 left: 807px; 
+	 top: 374px; 
+	 position: absolute; 
+	 width: 399px;
+	 height: 34px;
+	 z-index:2;
+} 
+
+ #p10sched11A2A 
+{ 
+	 left: 79px; 
+	 top: 436px; 
+	 position: absolute; 
+	 width: 694px;
+	 height: 32px;
+	 z-index:3;
+} 
+
+ #p10sched11A2B 
+{ 
+	 left: 806px; 
+	 top: 435px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 32px;
+	 z-index:4;
+} 
+
+ #p10sched11A3A 
+{ 
+	 left: 80px; 
+	 top: 470px; 
+	 position: absolute; 
+	 width: 693px;
+	 height: 34px;
+	 z-index:5;
+} 
+
+ #p10sched11A3B 
+{ 
+	 left: 806px; 
+	 top: 469px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 35px;
+	 z-index:6;
+} 
+
+ #p10sched11A4B 
+{ 
+	 left: 806px; 
+	 top: 506px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 33px;
+	 z-index:7;
+} 
+
+ #p10sched11A5A 
+{ 
+	 left: 80px; 
+	 top: 567px; 
+	 position: absolute; 
+	 width: 692px;
+	 height: 33px;
+	 z-index:8;
+} 
+
+ #p10sched11A5B 
+{ 
+	 left: 806px; 
+	 top: 567px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 33px;
+	 z-index:9;
+} 
+
+ #p10sched11A6A 
+{ 
+	 left: 80px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 693px;
+	 height: 34px;
+	 z-index:10;
+} 
+
+ #p10sched11A6B 
+{ 
+	 left: 806px; 
+	 top: 602px; 
+	 position: absolute; 
+	 width: 399px;
+	 height: 34px;
+	 z-index:11;
+} 
+
+ #p10sched11A7A 
+{ 
+	 left: 80px; 
+	 top: 663px; 
+	 position: absolute; 
+	 width: 693px;
+	 height: 33px;
+	 z-index:12;
+} 
+
+ #p10sched11A7B 
+{ 
+	 left: 806px; 
+	 top: 663px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 33px;
+	 z-index:13;
+} 
+
+ #p10sched11A8A 
+{ 
+	 left: 79px; 
+	 top: 699px; 
+	 position: absolute; 
+	 width: 694px;
+	 height: 32px;
+	 z-index:14;
+} 
+
+ #p10sched11A8B 
+{ 
+	 left: 806px; 
+	 top: 699px; 
+	 position: absolute; 
+	 width: 399px;
+	 height: 33px;
+	 z-index:15;
+} 
+
+ #p10sched11A9B 
+{ 
+	 left: 806px; 
+	 top: 734px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 32px;
+	 z-index:16;
+} 
+
+ #p10sched11A10B 
+{ 
+	 left: 806px; 
+	 top: 769px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 36px;
+	 z-index:17;
+} 
+
+ #p10sched11B1B 
+{ 
+	 left: 800px; 
+	 top: 867px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 33px;
+	 z-index:18;
+} 
+
+ #p10sched11B2A 
+{ 
+	 left: 79px; 
+	 top: 927px; 
+	 position: absolute; 
+	 width: 686px;
+	 height: 32px;
+	 z-index:19;
+} 
+
+ #p10sched11B2B 
+{ 
+	 left: 800px; 
+	 top: 927px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 32px;
+	 z-index:20;
+} 
+
+ #p10sched11B3A 
+{ 
+	 left: 80px; 
+	 top: 962px; 
+	 position: absolute; 
+	 width: 687px;
+	 height: 34px;
+	 z-index:21;
+} 
+
+ #p10sched11B3B 
+{ 
+	 left: 801px; 
+	 top: 961px; 
+	 position: absolute; 
+	 width: 405px;
+	 height: 35px;
+	 z-index:22;
+} 
+
+ #p10sched11B4B 
+{ 
+	 left: 800px; 
+	 top: 999px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 33px;
+	 z-index:23;
+} 
+
+ #p10sched11B5A 
+{ 
+	 left: 80px; 
+	 top: 1059px; 
+	 position: absolute; 
+	 width: 686px;
+	 height: 32px;
+	 z-index:24;
+} 
+
+ #p10sched11B5B 
+{ 
+	 left: 800px; 
+	 top: 1059px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 32px;
+	 z-index:25;
+} 
+
+ #p10sched11B6A 
+{ 
+	 left: 80px; 
+	 top: 1094px; 
+	 position: absolute; 
+	 width: 686px;
+	 height: 34px;
+	 z-index:26;
+} 
+
+ #p10sched11B6B 
+{ 
+	 left: 800px; 
+	 top: 1094px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 34px;
+	 z-index:27;
+} 
+
+ #p10sched11B7A 
+{ 
+	 left: 79px; 
+	 top: 1155px; 
+	 position: absolute; 
+	 width: 687px;
+	 height: 33px;
+	 z-index:28;
+} 
+
+ #p10sched11B7B 
+{ 
+	 left: 800px; 
+	 top: 1155px; 
+	 position: absolute; 
+	 width: 405px;
+	 height: 33px;
+	 z-index:29;
+} 
+
+ #p10sched11B8A 
+{ 
+	 left: 80px; 
+	 top: 1190px; 
+	 position: absolute; 
+	 width: 686px;
+	 height: 34px;
+	 z-index:30;
+} 
+
+ #p10sched11B8B 
+{ 
+	 left: 801px; 
+	 top: 1189px; 
+	 position: absolute; 
+	 width: 405px;
+	 height: 36px;
+	 z-index:31;
+} 
+
+ #p10sched11B9B 
+{ 
+	 left: 800px; 
+	 top: 1226px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 34px;
+	 z-index:32;
+} 
+
+ #p10sched11B10B 
+{ 
+	 left: 800px; 
+	 top: 1262px; 
+	 position: absolute; 
+	 width: 406px;
+	 height: 36px;
+	 z-index:33;
+} 

@@ -1,0 +1,666 @@
+.fonts{
+	font-family:agency fb2;
+}
+.headText {
+	padding-top: 30px;
+	font-size: 28.24px;
+	font-family: agency fb2;
+	color: #398f72;
+	padding-left: 10px;
+}
+.buttoninvoices {
+	margin-left: 5px;
+	font-size: 17px;
+	font-family: agency fb2;
+	margin-top: 5px;
+	cursor: pointer;
+	color: #398f72;
+	border: none;
+	background: none;
+	letter-spacing: .1px;
+}
+.createNI{
+	margin-left: 691px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+    background-image:url('../images/create_new_invoice.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;
+}
+    ::-webkit-input-placeholder { /* WebKit browsers */
+		color:    #fff;
+		font-size:16px;
+		padding-left:25px;
+		line-height: 1em;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	   color:    #fff;
+	   opacity:  1;
+	   font-size:16px;
+	   padding-left:25px;
+	   line-height: 1em;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	   color:    #fff;
+	   opacity:  1;
+	   font-size:16px;
+	   padding-left:25px;
+	   line-height: 1em;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	   color:    #fff;
+	   font-size:16px;
+	   padding-left:25px;
+	   line-height: 1em;
+	}
+	
+	.invoiceselect select {
+	  background: transparent;
+	  padding: 5px;
+	  font-size: 16px;
+	  line-height: 1;
+	  border: 0;
+	  border-radius: 0;
+	  height: 29px;
+	  -webkit-appearance: none;
+	  color: #fff;
+      font-family: agency fb2;
+	  text-shadow: 1px 1px 1px rgb(148, 148, 148);
+	}
+
+	.invoiceselect {
+	  overflow: hidden;
+	  background: url('../images/backselect.png');
+	  background-size:145px 100%;
+	  background-repeat:no-repeat;
+	}
+	 .cnitableAllInvoice2, td{
+        font-size: 12px;
+        color:#000;
+        font-family: verdana;
+        text-align: left;
+        /* padding: 2px 5px 2px 5px; */
+        height: 30px;
+    }	
+    .tfootTable{
+        border-collapse:collapse;
+        width: 98%;
+        margin:auto;
+        margin-top: 5px;
+    }
+   
+    .tfootTable a:hover{
+        font-weight:normal;
+        text-decoration:underline;
+    }
+    .tfootTable select{
+        width:60px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+	 .tfootTable, th{
+        background-color: #25b5ef;
+        /* padding: 2px 2px 2px 2px; */
+        font-size: 12px;
+        color:white;
+        font-family: verdana;
+        text-align: left;
+    }
+	
+    .tfootTable a{
+        color:#fff;
+        text-decoration:none;
+        cursor:pointer;
+        font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+        font-size:12px;
+    }
+	.cnitableAllInvoice2, th{
+        background-color: #25b5ef;
+        padding: 2px 2px 2px 2px;
+        font-size: 13px;
+        color:white;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        text-align: left;
+        padding: 5px;
+    }
+	.center2 a{
+        color: black;
+    }
+	.searchindex{
+		margin-left: -4px;
+		width: 130px;
+		height: 30px;
+		border: none;
+		background-repeat:no-repeat;
+		padding-left: 7px; 
+		padding-right: 25px; 
+		text-align: left;
+		font-family:agency fb2;
+		font-size:13px;
+		background-image: url('../images/searchback.png');
+		background-size:100% 100%;
+		border-radius:3px;
+		color: #fff;
+	}	
+	 .cnitableAllInvoice{
+        border-collapse:collapse;
+        width: 98%;
+        margin:auto;
+        margin-top: 5px;
+        margin-top: -52px;
+    }
+   
+    .cnitableAllInvoice tr:HOVER{
+        background-color: #E8E8E8;
+    }	
+	.cnitableAllInvoice2{
+        border-collapse:collapse;
+        width: 98%;
+        margin:auto;
+        margin-top: 5px;
+        margin-top: -96px;
+    }
+    
+    .dateInputText{
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.27);;
+        padding: 5px 5px 5px 5px;
+    }
+   
+    .tablecni a{
+        text-decoration: none;
+		color:rgb(5, 5, 244);
+    }
+    .tablecni a:hover{
+        text-decoration: underline;
+    }
+    .cnitableAllInvoiceTr a{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        font-weight: bold;
+    }
+    .cnitableAllInvoiceTr a:hover{
+        text-decoration: underline;
+        color: white;
+        font-size: 13px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        font-weight: bold;
+    }
+    .ui-datepicker-calendar th{
+
+    }
+
+    .ui-datepicker {  
+        width: 216px;  
+        height: auto;  
+        margin: 5px auto 0;  
+        font: 9pt Arial, sans-serif;  
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);  
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);  
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);  
+    }  
+    .ui-datepicker a {  
+        text-decoration: none;  
+    }  
+    .ui-datepicker table {  
+        width: 100%;  
+        background-color: white;
+    }  
+    .ui-datepicker-header {  
+        background-image: url('../../public/images/prevNext.png');
+        color: #e0e0e0;
+        font-weight: bold;
+        -webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+        -moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+        box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+        /* text-shadow: 1px -1px 0px #000; */
+        filter: dropshadow(color=#000, offx=1, offy=-1);
+        line-height: 30px;
+        border-width: .1px 0 0 0;
+        border-style: solid;
+        border-color: #A29A9A;
+    }  
+    .ui-datepicker-title {  
+        text-align: center; 
+    }  
+    .ui-datepicker-prev, .ui-datepicker-next {  
+        display: inline-block;  
+        width: 30px;  
+        height: 30px;  
+        text-align: center;  
+        cursor: pointer; 
+        background-repeat: no-repeat;  
+        line-height: 600%;  
+        overflow: hidden;  
+    }  
+
+    .ui-datepicker-prev {  
+        float: left;  
+        background-position: center -30px;  
+    }  
+    .ui-datepicker-next {  
+        float: right;  
+        background-position: center 0px;  
+    }  
+    .ui-datepicker thead {  
+        background-color: #f7f7f7;  
+        background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);  
+        background-image: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));  
+        background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);  
+        background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);  
+        background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);  
+        background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );  
+        border-bottom: 1px solid #bbb;  
+    }  
+    .ui-datepicker th {  
+        text-transform: uppercase;  
+        font-size: 6pt;  
+        color: #666666;  
+        text-shadow: 1px 0px 0px #fff;  
+        filter: dropshadow(color=#fff, offx=1, offy=0);  
+        text-align: center;
+        background-color: white;
+    }  
+    .ui-datepicker tbody td {  
+        padding: 0;  
+        border-right: 1px solid #bbb;  
+    }  
+    .ui-datepicker tbody td:last-child {  
+        border-right: 0px;  
+    }  
+    .ui-datepicker tbody tr {  
+        border-bottom: 1px solid #bbb;  
+    }  
+    .ui-datepicker tbody tr:last-child {  
+        border-bottom: 0px;  
+    }  
+    .ui-datepicker td span, .ui-datepicker td a {  
+        display: inline-block;  
+        font-weight: bold;  
+        text-align: center;  
+        width: 30px;  
+        height: 30px;  
+        line-height: 30px;  
+        color: #666666;  
+        text-shadow: 1px 1px 0px #fff;  
+        filter: dropshadow(color=#fff, offx=1, offy=1);  
+    }  
+    .ui-datepicker-calendar .ui-state-default {  
+        background: #ededed;  
+        background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);  
+        background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0%,#ededed), color-stop(100%,#dedede));  
+        background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);  
+        background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);  
+        background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);  
+        background: linear-gradient(top,  #ededed 0%,#dedede 100%);  
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );  
+        -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);  
+        -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);  
+        box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);  
+    }  
+    .ui-datepicker-unselectable .ui-state-default {  
+        background: #f4f4f4;  
+        color: #b4b3b3;  
+    }  
+    .ui-datepicker-calendar .ui-state-hover {  
+        background: #f7f7f7;  
+    }  
+    .ui-datepicker-calendar .ui-state-active {  
+        background: #6eafbf;  
+        -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);  
+        -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);  
+        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);  
+        color: #e0e0e0;  
+        text-shadow: 0px 1px 0px #4d7a85;  
+        filter: dropshadow(color=#4d7a85, offx=0, offy=1);  
+        border: 1px solid #55838f;  
+        position: relative;  
+        margin: -1px;  
+    } 
+    .ui-datepicker-calendar td:first-child .ui-state-active {  
+        width: 29px;  
+        margin-left: 0;  
+    }  
+    .ui-datepicker-calendar td:last-child .ui-state-active {  
+        width: 29px;  
+        margin-right: 0;  
+    }  
+    .ui-datepicker-calendar tr:last-child .ui-state-active {  
+        height: 29px;  
+        margin-bottom: 0;  
+    } 
+    .date{
+        margin-left: 5px;
+        font-size: 12px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+    }  
+    .invoiceText{
+        border: none;
+        text-align: right;
+        background: none;
+        font-size: 12px;
+        color: black;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+    }
+    .balinvoices{
+        font-size: 12px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        text-align:right;
+        border:none;
+        background:none;
+
+    }
+    .balTotal{
+        margin-left: 63px;
+        width: 115px;
+        text-align: center;
+        font-size: 12px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        border:none;
+        border-top: solid 1px #000;
+    }
+    
+    .search2Col{
+        width: 29px;
+		height: 33px;
+		border-radius: 2px 2px 2px 2px;
+		font-size: 14px;
+		font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+		cursor: pointer;
+		border: none;
+		color: whitesmoke;
+		background-image: url('public/images/searchbutton.png');
+		border: solid 1px #c8c8c8;
+		background-color: rgb(230, 250, 222);
+		background-repeat: no-repeat;
+		background-position: 3px;	
+		position: absolute;
+		margin-top: -30px;
+		margin-left: 247px;
+		background-size:100%;
+		opacity: -8;
+    }
+	.search2222{
+		width: 49px;
+		height: 31px;
+		border-radius: 2px 2px 2px 2px;
+		font-size: 14px;
+		font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+		cursor: pointer;
+		border: none;
+		color: whitesmoke;
+		background-image: url('public/images/searchbutton.png');
+		border: solid 1px #c8c8c8;
+		background-color: rgb(230, 250, 222);
+		background-repeat: no-repeat;
+		background-position: 3px;
+		position: absolute;
+		margin-top: 5px;
+		margin-left: -48px;
+		background-size: 100%;
+		opacity: -8;
+	}
+    #new{
+	/* /* font-family: agency fb2; */
+	/* font-style: italic; 
+	font-weight: none;
+	color: #398f72;
+	font-size: 17px; */
+	}
+    
+    .statInputnew{
+        font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+        font-size:12px;
+        width:100%;
+        text-align:center;
+        border:none;
+        background:none;
+    }
+	.inumber{
+	background-color: #5E5353;
+	width: 145px;
+	height: 29px;
+	border: none;
+	font-size: 12px;
+	color: white;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size:12px;
+}
+.createNPAyment{
+	margin-left: 691px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+    background-image:url('../images/createcollection.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;
+}
+.invoiceHolderInvoice{
+	width: 100%;
+	/* margin-top: 79px; */
+	background-color: white;
+	padding-bottom: 100px;
+}
+.ttt{
+	margin-left: 12px;
+	color:#fff;
+	padding-left: 416px;
+}
+.tcollect2 {
+/* margin-left: 426px; */
+	margin: auto;
+	margin-top: 31px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-weight: bold;
+	font-size: 14px;
+	width: 98%;
+	background-color: rgb(37, 181, 239);
+}
+
+.phpcol{
+	text-align: right;
+	border:none;
+	color: #fff;
+	width: 110px;
+	height: 32px;
+	margin-left: 70px;
+	margin-top: -5px;
+	font-weight: bold;
+	font-size:12px;
+	font-family: verdana;
+	text-transform:uppercase;
+	padding-right:6px;
+	background:none;
+}
+ a:hover{
+	color:blue;
+	font-weight:normal;
+	cursor:pointer;
+	text-decoration:none;
+}
+.totalA{
+	text-align: right;
+	width: 100%;
+	border: none;
+	font-family:verdana;
+	font-size:12px;
+}
+ .createNchmo{
+    margin-left: 691px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+	background:none;
+    background-image:url('../images/create_new_hmo.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;  
+ }
+ .createNc{
+    margin-left: 691px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+	background:none;
+    background-image:url('../images/addpatient.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;  
+ }
+ .createNewTask{
+    margin-left: 691px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+	background:none;
+    background-image:url('../images/create new service2	.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;  
+ }
+ 
+ .createAll{
+	margin-left: 691px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+	background:none;
+    background-image:url('../images/expenses.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;  
+ }
+ .createNSupplier{
+	margin-left: 666px;
+	margin-top: -62px;
+	width: 199px;
+	height: 44px;
+    border: none;
+    background-image:url('../images/expenses.png');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    border-radius:3px;
+    box-shadow: 0 3px 2px -2px gray;  
+ }
+ .searchindexpayment{
+		margin-left: -4px;
+		width: 152px;
+		height: 30px;
+		border: none;
+		background: none;
+		background-repeat:no-repeat;
+		padding-left: 7px; 
+		padding-right: 46px; 
+		text-align: left;
+		font-family:agency fb2;
+		font-size:13px;
+		background-image: url('../images/searchback.png');
+		background-size:100% 100%;
+		border-radius:3px;
+		color: #fff;
+	}	
+	.createvendorall{
+		margin-left: 691px;
+		margin-top: -62px;
+		width: 199px;
+		height: 44px;
+		border: none;
+		background: none;
+		background-image:url('../images/vendor.png');
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		border-radius: 10px;
+		cursor: pointer;
+		border-radius:3px;
+		box-shadow: 0 3px 2px -2px gray;  
+	 }
+.createNewJournal{
+       margin-left: 691px;
+		margin-top: -62px;
+		width: 199px;
+		height: 44px;
+		border: none;
+		background: none;
+		background-image:url('../images/createnewjournal.png');
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		border-radius: 10px;
+		cursor: pointer;
+		border-radius:3px;
+		box-shadow: 0 3px 2px -2px gray; 
+    }
+.inputAddline2{
+        padding: 5px 10px 5px 10px;
+        cursor: pointer;
+        /* width: 67px; */
+        border-radius: 5px;
+        font-family: verdana;
+        font-size: 12px;
+        color: white;
+        border: none;
+        /*  background: linear-gradient(to bottom, #B6B1B1 0%,#494949 100%); */
+        background-image: url('../images/addline.png'); 
+        background-size:100% 100%;
+        width: 75px;
+    }
+  .bnexpense{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 87px;
+        height: 28px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        font-size: 14px;
+        font-style: bold;
+        text-decoration: none;
+        margin-left: 86px;
+        border: none;
+        color: white;
+        background-image: url('../images/save.png'); 
+        background-size: 100% 100%;
+        cursor:pointer;
+    }
+    .postExpense{
+        width: 87px;
+        height: 28px;
+        font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+        font-size: 14px;
+        font-style: bold;
+        text-decoration: none;
+        border: none;
+        color: white;
+        background-image: url('../images/post.png'); 
+        background-size: 100% 100%;
+        cursor:pointer;
+    }

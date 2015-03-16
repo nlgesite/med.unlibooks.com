@@ -1,0 +1,94 @@
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 100%;
+	 height:100%; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+
+
+ #page11701 
+{ 
+	 left: 5px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1275px;
+	 height: 1950px;
+	 z-index:1;
+} 
+
+ #partII32 
+{ 
+	 left: 959px; 
+	 top: 1136px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 32px;
+	 z-index:2;
+} 
+
+ #partII31 
+{ 
+	 left: 959px; 
+	 top: 1105px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 30px;
+	 z-index:3;
+} 
+
+ #partII30 
+{ 
+	 left: 958px; 
+	 top: 1075px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 29px;
+	 z-index:4;
+} 
+
+ #partII29 
+{ 
+	 left: 959px; 
+	 top: 1044px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 30px;
+	 z-index:5;
+} 
+
+ #partII28 
+{ 
+	 left: 958px; 
+	 top: 1013px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 29px;
+	 z-index:6;
+} 
+
+ #partII27 
+{ 
+	 left: 959px; 
+	 top: 982px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 30px;
+	 z-index:7;
+} 
+
+ #partII26 
+{ 
+	 left: 959px; 
+	 top: 956px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 24px;
+	 z-index:8;
+} 

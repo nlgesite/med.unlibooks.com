@@ -1,0 +1,1188 @@
+.invoiceHolderExpense{
+	width: 100%;
+	/* margin-top: 177px; */
+	background-color: white;
+	padding-bottom: 150px;
+	box-shadow: 10px 4px 7px -9px rgba(50, 50, 50, 0.75), -6px 5px 11px -7px rgba(50, 50, 50, 0.75);
+	margin-bottom: -18px;
+	margin-top:248px;
+}
+.invoiceHolderAllExp{
+	width: 100%;
+	/* margin-top: 181px; */
+	background-color: white;
+	padding-bottom: 500px;
+	box-shadow: 10px 4px 7px -9px rgba(50, 50, 50, 0.75), -6px 5px 11px -7px rgba(50, 50, 50, 0.75);
+	margin-bottom: -18px;
+	margin-top:251px;
+}
+#new{
+	
+}
+#newAllExp{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+	
+}
+
+.allexp{
+	/* margin-top: -95px; */
+	font-size: 30px;
+	padding-top:23px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.headText{
+	margin-top: -200px;
+	font-size: 30px;
+	text-shadow: none;
+}
+.headTextExpense{
+	/* margin-top: -92px; */
+	
+}
+.AllExpHR{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -9px;
+}
+.Class2Suppliers{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -8px;
+}
+.Class2NewExpense{
+	width:985px;
+	border: 2px solid gray;
+	margin-left: -15px;
+	margin-top: -18px;
+}
+.form1NExpense{
+	width: 98%;
+	height: 700px;
+	margin: auto;
+	/* margin-left: 50px; */
+	margin-top: 13px;
+}
+
+h4{
+	font-family: Calibri;
+	font-style: bold;
+	font-size: 20px;
+	color:#006666;
+}
+.vendor{
+	margin-top: 7px;
+	margin-left: 25px;
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 12px;
+	color:#000000;
+	
+}
+.addSample{
+	margin-top: 40px;
+	margin-left: 25px;
+	font-family: verdana;
+	font-weight: normal;
+	font-size: 12px;
+	color:#000000;
+}
+.InvoiceNumberExp{
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 500px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}
+
+.dueExp{
+	position: absolute;
+	margin-top: 46px;
+	margin-left:500px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}	
+.di{
+	position:absolute;
+	height: 25px;
+	width: 190px;
+	margin-top: -7px;
+	margin-left:55px;
+	background-color: white;
+	font-size: 12px;
+	font-family: calibri;
+	border:1px solid #C8C8C8;
+}
+.cus{
+	border: none;
+	
+}
+.sc{
+	font-family: verdana;
+	font-style: normal;
+	font-size: 12px;
+	margin-left: 20px;
+	width: 224px;
+	height: 27px;
+	background-color: white;
+	border: 1px solid #C8C8C8;
+}
+.ads{
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 140px;
+	font-weight: bold;
+	font-size: 19px;
+	color:#006666;
+	background-color: #E9EEDE;
+	border: none;
+	}
+.add{
+	font-family: verdana;
+	font-style: normal;
+	font-size: 12px;
+	width: 224px;
+	background-color: white;
+	margin-top: 8px;
+	margin-left: 20px;
+	height: 90px;
+	/* position: absolute; */
+	border: 1px solid #C8C8C8;
+	max-width: 282px;
+	max-height: 90px;
+	padding: 5px;
+}
+
+.in{
+	position: absolute;
+	height: 25px;
+	width: 190px;
+	text-align: right;
+	margin-top: -21px;
+	margin-left: 114px;
+	background-color: white;
+	font-size: 12px;
+	font-family: calibri;
+	padding-right: 5px;
+	border:1px solid #C8C8C8;
+}
+.d{
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 19px;
+	color:#006666;
+}
+
+.dd{
+	position:absolute;
+	height: 25px;
+	width: 190px;
+	margin-left: 60px;
+	margin-top: -9px;
+	background-color: white;
+	font-size: 12px;
+	font-family: calibri;
+	border:1px solid #C8C8C8;
+}	
+.dueDateExp{
+	position: absolute;
+	margin-top: 79px;
+	margin-left:500px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}	
+
+.poso{
+	position: absolute;
+	height: 25px;
+	width: 190px;
+	margin-left: 35px;
+	margin-top: -7px;
+	background-color: white;
+	font-size: 12px;
+	font-weight: calibri;
+	padding-left: 5px;
+	border:1px solid #C8C8C8;
+	
+}
+.ReferExp{
+	position: absolute;
+	margin-top: 109px;
+	margin-left:500px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}	
+
+.dsc{
+	position:absolute;
+	height: 25px;
+	width: 75px;
+	margin-left: 63px;
+	margin-top: -4px;
+	background-color: white;
+	text-align: right;
+	font-size: 12px;
+	font-family: calibri;
+	padding-right: 5px;
+	border:1px solid #C8C8C8;
+}	
+.discountExp{
+	position: absolute;
+	margin-top: 138px;
+	margin-left:500px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}	
+
+.memoExp{
+	position: absolute;
+	margin-top: 172px;
+	margin-left:500px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+	color:#006666;
+}	
+
+.mm{
+	position: absolute;
+	width: 270px;
+	height:100px;
+	margin-left: 24px;
+	margin-top: -5px;
+	background-color: white;
+	border-color: #C8C8C8;
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 5px;
+	padding-top: 5px;
+	border:1px solid #C8C8C8;
+	max-width: 270px;
+	max-height:100px;
+}	
+.table1NewExpenses{
+	width: 880px;
+	margin-top: 5px;
+	margin-left: 10px;
+	border-collapse:collapse;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 15px;
+}
+.image7{
+	margin-top: 5px;
+	width: 890px;
+	height:5px;
+	margin-left: 5px;
+}
+.image8{
+	margin-top: 15px;
+	width: 98%;
+	height:5px;
+	margin-left: 5px;
+}
+.table2{
+	margin-left: 8px;
+	margin-top: 68px;
+	width: 100%;
+	border-collapse:collapse;
+	text-align: center;
+	font-family: Calibri;
+	font-style: normal;
+	font-size: 15px;
+}
+
+
+.no-bg{
+	background-color:white;
+	
+}
+td{
+	padding: 7px;
+}
+th{
+	background-color:#55C768;
+	color:white;
+	font-size: 15px;
+	text-shadow: 0px 4px 1px 0px black;
+	padding: 7px;
+	text-align: left;
+}
+.ry2{
+	background-color:#D3DDBD;
+}
+.memoExpenses{
+	text-align: left;
+	font-size: 12px;
+	font-family: calibri;
+	border-bottom: solid 1px #C8C8C8;
+	padding-left: 50px;
+}
+.AmountExpenses{
+	text-align: right;
+	font-size: 12px;
+	font-family: calibri;
+	padding-right: 30px;
+	border-bottom: solid 1px #C8C8C8;
+	
+}
+.nameExpenses{
+	padding-left: 50px;
+	text-align: left;	
+	font-size: 12px;
+	font-family: calibri;
+	border-bottom: solid 1px #C8C8C8;
+}
+.categoryExpense{
+	border-bottom: 1px solid #c8c8c8;
+	text-align: left;
+	font-size: 12px;
+	font-family: calibri;
+	padding-left: 50px;
+}
+.ccc{
+	padding-left: 25px;
+	padding-right:25px;
+	
+}
+.cc2{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.ray1{
+	text-align: center;
+	background-color:#F5F5F5;
+	border-collapse: collapse;
+}
+.mop{
+	text-align: center;
+	background-color:#F5F5F5;
+	border-collapse: collapse;
+}
+.tamt{
+	text-align:center; 
+}
+.check{
+	text-align:center; 
+}
+.ray2{
+	padding-right: 35px;
+}
+.frequency{
+	text-align: center;
+	background-color:#F5F5F5;
+	border-collapse: collapse;
+}
+.descTable{
+	text-align: left;
+	padding-left:50px;
+	font-size: 13px;
+	font-family: calibri;
+}
+.descTableAmountAllExp{
+	text-align:right;
+	padding-right: 15px;
+	font-size: 13px;
+	font-family: calibri;
+	padding-right: 30px;
+}
+.descTableAccountAllExp{
+	font-size: 13px;
+	font-family: calibri;
+	text-align: left;
+	padding-left: 30px;
+}
+.blankTable{
+	font-size: 13px;
+	font-family: calibri;
+}
+.blank{
+	width: 5px;
+}
+.descTable2AllExp{
+	padding-left:10px;
+	font-size: 13px;
+	font-family: calibri;
+	text-align: left;
+}
+
+.refNoExp{
+	color: blue;
+	border-bottom: solid 1px #C8C8C8; 
+	border-right: 0px;
+	margin-top: 200px;
+	padding-left: 30px;
+	text-align: left;	
+	font-size: 12px;
+	font-family: calibri;
+	
+}
+.refNoExp:hover{
+	cursor: pointer;
+}
+.dateExpense{
+	padding-left: 10px;
+	text-align: left;
+	font-size: 12px;
+	font-family: calibri;
+	border-bottom: 1px solid #C8C8C8;
+}
+.dateExpense:hover{
+	cursor: pointer;
+}
+.itemno{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 200px;
+	padding-left: 4px;
+}
+.itemno:hover{
+	cursor: pointer;
+}
+.table3Expense{
+	width: 29%;
+	border-collapse:collapse;
+	margin-left: 671px;
+	margin-top: 16px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;	
+}
+.table3Expense input[type="text"]{
+	text-align:right;
+	border:none;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;	
+	font-size:12px;
+	padding:5px;
+	width:100%;
+}
+.table3Expense td{
+	width:100px;
+}
+.table3, td{
+	padding:5px;
+}
+.hr4{
+	margin-top:300px;
+	margin-left: 10px;
+	width:874px;
+	border: 1.75px solid #D8D8D8;
+	box-shadow:  1.5px 0px 0px 1.5px white;
+}
+.hrLast{
+	margin-top:20px;
+	margin-left: 10px;
+	width:874px;
+	border: 1.75px solid #D8D8D8;
+	box-shadow:  1.5px 0px 0px 1.5px white;
+}
+.amountNewExpense{
+	text-align: right;
+	font-size: 12px;	
+	font-weight: bold;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	padding-right: 5px;
+}
+.expensesAmount{
+	border-collapse: collapse;
+	border: 0px;
+	font-size: 12px;
+	font-family: calibri;
+	background-color:white;
+}
+.vtr{
+	border-collapse: collapse;
+	border: 0px;
+	font-size: 12px;
+	font-family: calibri;
+	background-color:white;	
+}
+.gt{
+	background-color: #25B5EF;	
+	font-weight: bold;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 12px;
+}
+#gt{
+	background-color: #25B5EF;
+	font-weight: bold;
+}
+.gtotal{
+	/* border: 0px;
+	border-bottom:1px solid #C8C8C8;
+	border-top:1px solid #C8C8C8;
+	border-right:1px solid #C8C8C8;
+	border-left:1px solid #C8C8C8; */
+}
+.tablet{
+	margin-top: -2px;
+	margin-left: 35px;
+}
+.tm{
+	margin-top: -20px;
+	margin-left: 20px;
+	border: 1px solid #C8C8C8;
+	border-radius: 15px;
+	width: 436px;
+	height: 93px;
+	max-width: 436px;
+	max-height: 93px;
+	border-color: #C8C8C8;
+}
+.bn{
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 84px;
+	height: 28px;
+	color: white;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size: 14px;
+	font-style: bold;
+	text-decoration: none;
+	background-color: rgb(97, 93, 93);
+	border: none;
+	
+}
+.searchAllExp{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px;
+}
+.centerAllExp {
+	
+}
+.bn1{
+	margin-top: 25px;
+	margin-left: 30px;
+	background-color:#1EBE39;
+	width: 230px;
+	height: 40px;
+	color: white;
+	font-family: Calibri(Body);
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: none;	
+}
+
+.bn2{
+	margin-top: 25px;
+	margin-left: 30px;
+	background-color:#1EBE39;
+	width: 230px;
+	height: 40px;
+	color: white;
+	font-family: Calibri(Body);
+	font-size: 18px;
+	font-style: bold;
+	text-decoration: none;
+}
+.bn:hover{
+	text-decoration: underline;	
+}
+.bn1:hover{
+	text-decoration: underline;	
+}
+.bn2:hover{
+	text-decoration: underline;
+}
+.ae{
+	margin-top: -200px;
+	font-size: 30px;	
+}
+/**/
+.createNe{
+	margin-left: 760px;
+	margin-top: -70px;
+	width: 200px;
+	height: 45px;
+	border: none;
+	background-image:url('/unlibooks/public/images/create_new_expense.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	border-radius: 10px;
+	cursor: pointer;
+	
+}
+.center2 {
+	right: 50%;
+	margin-right: -450px;
+	width: 990px;
+	height: 45px;
+	margin: 0 auto;
+	background-color:#f0f6f0;
+	border-radius:5px 5px 0px 0px;
+}
+.searchindexAllE{
+	
+}	
+.addAllExp{
+	background-color:#5E5353;
+	width: 110px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	border: none;
+	color: white;
+}
+.printAllExp{
+	background-color:#5E5353 ;
+	width:95px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	color: whitesmoke;
+	border: none;
+}
+.sendAllExp{
+	background-color:#5E5353;
+	width: 110px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	color: white;
+	border: none;
+}
+.search3{
+	
+}
+.delete1{
+	background-color:#C8C8C8 ;
+	width: 120px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: calibri;
+	margin-top:5px;
+	cursor: pointer;
+}
+.edit2aAllExp{
+	
+}
+.copy2aAllExp{
+	
+}
+.deleteAllExp{
+	
+}
+.sendI{
+	background-color:#C8C8C8 ;
+	width: 120px;
+	height: 33px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.print1{
+	background-color:#C8C8C8 ;
+	width: 120px;
+	height: 33px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.addP{
+	background-color:#C8C8C8 ;
+	width: 120px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+}
+.searchindex{
+	
+}
+.inumberAllExp{
+	
+}
+.by4All{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}	
+.by4{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.inumber{
+	
+}
+.cnitable{
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 97%;
+	font-family: Calibri;
+}
+.cnitableExp{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 98%;
+	font-family: Calibri;
+}
+.dateAllExp{
+	font-size: 12px;
+	text-align: left;
+	border-collapse: collapse;
+	font-family: calibri;
+	padding-left: 7px;
+	
+}
+.expenseNoAll{
+	font-size: 12px;
+	font-family: calibri;
+	color: #6495ED;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.headinvoice{
+	font-family: Calibri;
+	
+}
+.tablecni{
+	background-color:#fff;
+	border-bottom: 1px solid #C8C8C8;
+}
+.cbAllExp{
+	text-align: center;
+}
+.cbox{
+	
+	text-align: center;
+	border: none;
+	background-color: white;
+}
+.expense{
+	margin-left: 25x;
+	font-family: calibri;
+	font-size: 13px;
+	text-align: left;
+}
+.expenseHeader{
+	font-family: calibri;
+	font-size: 13px;
+	text-align: left;
+}
+.expense2{
+	margin-left: 25x;
+	font-family: calibri;
+	font-size: 13px;
+	text-align: left;
+	padding-left: 10px;
+}
+.expenseNo{
+	font-size: 14px;
+	color: #6495ED;
+	position: absolute;
+	margin-left:5px;
+	
+}
+.expenseNo:hover{
+	cursor: pointer;
+}
+.date{
+	font-size: 14px;
+	text-align: left;
+	background-color:#F5F5F5;
+	border-collapse: collapse;
+}
+.edit2AllExp{
+	font-size: 12px;
+	text-align: left;
+	color: blue;
+	margin-left:962px;
+	margin-top:139px;
+	position: absolute;
+	font-family: calibri;
+}
+
+.tamt{
+	position: absolute;
+	font-size: 14px;
+	margin-left: 15px;
+}
+.status{
+	font-size: 14px;
+	text-align: left;
+}
+.edit{
+	text-align: left;
+	color: blue;
+	font-size: 11px;
+	margin-left:960px;
+	margin-top:85px;
+	position: absolute;
+}
+.editAllExp{
+	text-align: left;
+	color: blue;
+	font-size: 12px;
+	margin-left:962px;
+	margin-top:76px;
+	position: absolute;
+	font-family: calibri;
+}
+.edit2{
+	font-size: 11px;
+	text-align: left;
+	color: blue;
+	margin-left:960px;
+	margin-top:165px;
+	position: absolute;
+}
+.cb{
+	text-align: center;
+}
+.total_amount{
+	text-align: right;
+	font-size: 12px;
+	font-family: calibri;
+	padding-right: 60px;
+}
+.note{
+	text-align: center;
+	font-family: calibri;
+	font-size: 13px;
+	
+}
+.blankAllExp{
+	width: 280px;
+	height: 27px;
+	border: none;
+	margin-left: 70px;
+	font-size: 12px;
+	font-family: calibri;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.equipAllExp{
+	font-size: 12px;
+	font-family: calibri;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.statusAllExp{
+	font-size: 12px;
+	text-align: center;
+	font-family: calibri;
+	padding-top: 10px;
+	
+}
+.tamtAllExp{
+	text-align: right;
+	font-size: 14px;
+	margin-left: 15px;
+	font-size: 12px;
+	font-family: calibri;
+	padding-top: 10px;
+	padding-right: 60px;
+}
+.blank{
+	
+	width: 280px;
+	height: 27px;
+	border: none;
+	margin-left: 70px;
+}
+.equip{
+	position: absolute;
+	margin-left: 18px;
+}
+.parti{
+	padding-left: 25px;
+	font-size: 13px;
+	font-family: calibri;	
+}
+
+
+
+
+.SuppliersHolder{
+	width: 100%;
+	background-color: white;
+}
+#newSuppliers{
+	font-family: calibri;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: none;
+}
+.textHeadSuppliers{
+	/* margin-top: -99px; */
+	font-size: 30px;
+	padding-top: 23px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+}
+.createNewISuppliers{
+	margin-left: 760px;
+	margin-top: -70px;
+	width: 200px;
+	height: 45px;
+	border: none;
+	background-image:url('/unlibooks/public/images/create new item.png');
+	background-repeat:no-repeat;
+	background-position:left;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.cnitableSuppliers{
+	margin-top: 5px;
+	border-collapse: collapse;
+	margin-left: 5px;
+	width: 99%;
+	font-family: Calibri;
+	font-size:13px;
+	color: white;
+}
+
+.buttonImpSuppliers{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.searchSuppliers{
+	margin-left: 10px;
+	width: 200px;
+	text-align: center;
+	height: 28px;
+	margin-top: 20px;
+	font-family:Arial, Helvetica, verdana, sans-serif, tahoma;
+	font-size:14px;
+}
+#searchSuppliers{
+	
+}
+.searchindexSuppliers{
+	
+}
+.addSuppliers{
+	
+}
+.deleteSuppliers{
+	
+}	
+.transactionSuppliers{
+	background-color:#5e5353;
+	width: 95px;
+	height: 33px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: -1px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+.transactionExport{
+	background-color:#5e5353;
+	width: 94px;
+	height: 29px;
+	border-radius: 2px 2px 2px 2px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, verdana, sans-serif, tahoma;
+	cursor: pointer;
+	border: none;
+	color: whitesmoke;
+}
+.bySuppliers{
+	color: black;
+	font-weight: normal;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.inumberSuppliers{
+	
+}
+.cnitableItemSuppliers{
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 97%;
+	font-family: Calibri;
+}
+.headinvoiceItemSuppliers{
+	font-family: Calibri;
+	background-color: #55C768;
+}
+.tableItemSuppliers{
+	background-color:#fff;
+	border-bottom: solid 1px #C8C8C8;
+	font-size:12px;
+}
+.cboxItemSuppliers{
+	text-align: center;
+	border: none;
+}
+.itemNoSuppliers{
+	color: blue;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	margin-top: 200px;
+	padding-left: 7px;
+	
+}
+.dateSuppliers{
+	text-align: left;
+	border-collapse: collapse;
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+}
+.nameSuppliers{
+	text-align: left;
+	border-collapse: collapse;
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+	
+}
+.codeSuppliers{
+	text-align:left; 
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+}
+.AccountSuppliers{
+	text-align: left;
+	padding-left: 7px;
+	color: #000000;
+	font-size: 12px;
+	font-family: calibri;
+}
+
+
+.textHeadSuppliers{
+/* 	margin-top: -204px; */
+	font-size: 30px;
+}
+
+.centerSuppliers{
+	
+}
+.buttonImpSuppliers{
+	background-color:#C8C8C8 ;
+	width: 128px;
+	height: 29px;
+	border-radius: 5px 0px 7px 0px;
+	margin-left: -5px;
+	font-size: 14px;
+	font-family: calibri;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.searchindexItemSuppliers{
+	margin-left: 15px;
+	margin-top: 6px;
+	width: 24%;
+	height: 30px;
+	border: 1px solid #C0C0C0;
+	text-align: center;
+	background-image:url('/unlibooks/public/images/search2.png');
+	background-repeat:no-repeat;
+	background-position:left;
+}
+.createExpenseSuppliers{
+	
+}
+
+.cnitableItemSuppliers{
+	margin-top: 20px;
+	border-collapse: collapse;
+	margin-left: 15px;
+	width: 97%;
+	font-family: Calibri;
+}
+.headinvoiceItemSuppliers{
+	font-family: Calibri;
+}
+
+.cboxItemSuppliers{
+	text-align: center;
+	border: none;
+}
+
+
+.dateCreatedSuppliers{
+	text-align: left;
+	border-collapse: collapse;
+	padding-left: 7px;
+}
+
+.taxCodeSuppliers{
+	text-align: left;
+	padding-left: 7px;
+}
+.thHeadSuppliers{
+	text-align: left;
+	width: auto;
+	font-size: 13px;
+	font-family: calibri;
+	color: white;
+}
+.checksSuppliers{
+	text-align: center;
+	width: 50px;
+}
+#containerNExp{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.del:hover{
+	cursor: pointer;
+	background-image: url('/unlibooks/public/images/del1.png');
+}
+
+ 
